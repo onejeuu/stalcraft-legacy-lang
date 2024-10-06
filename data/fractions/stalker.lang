@@ -82,3 +82,14 @@ we.north_faction_camp_duty.status_title=Застава «Долга»
 
 we.abstract_camp_freedom.status_title=Стоянка «Свободы»
 we.north_faction_camp_freedom.status_title=Застава «Свободы»
+
+map.teleport.id.bar-duty.name=к базе «Долга»
+map.teleport.id.bar-freedom.name=к базе «Свободы»
+
+stalker.navigation.transition.dungeon_twins_boss_arena-base_duty.name=База «Долга»
+stalker.navigation.transition.dungeon_twins_boss_arena-base_freedom.name=База «Свободы»
+
+stalker.navigation.transition.north_barrier-base_duty.name=База «Долга»
+stalker.navigation.transition.north_institute-base_freedom.name=База «Свободы»
+stalker.navigation.transition.outpost_duty-base_duty.name=База «Долга»
+stalker.navigation.transition.outpost_freedom-base_freedom.name=База «Свободы»

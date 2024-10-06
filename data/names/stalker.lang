@@ -238,47 +238,200 @@ quest_contract.quest_murder_sever_8.title=Пси-собаки
 quest_contract.quest_unical_items_bar_18_premium.title=Лиманский воск
 quest_contract.quest_unical_items_sever_2.title=Лиманский воск
 
-pda.waypoint.we.abstract_camp_tushkan.title=Нора тушканов
 pda.waypoint.we.abstract_camp_dog.title=Логово собак
 pda.waypoint.we.abstract_camp_flesh.title=Лежанка плотей
-pda.waypoint.we.abstract_camp_krovosos.title=Гнездо кровососов
-pda.waypoint.we.abstract_camp_snork.title=Лежка снорков
 pda.waypoint.we.abstract_camp_krovosos_large.title=Логово кровососов
-
-pda.waypoint.we.abstract_camp_monolit.title=Отряд «Монолита»
+pda.waypoint.we.abstract_camp_krovosos.title=Гнездо кровососов
 pda.waypoint.we.abstract_camp_monolit_large.title=База «Монолита»
-
+pda.waypoint.we.abstract_camp_monolit.title=Отряд «Монолита»
+pda.waypoint.we.abstract_camp_snork.title=Лежка снорков
+pda.waypoint.we.abstract_camp_tushkan.title=Нора тушканов
 pda.waypoint.we.abstract_contamination_antenna.title=Антенна «Монолита»
-
-pda.waypoint.we.flex_node_electra.title=Скопление «Протоэлектр»
-
-pda.waypoint.we.flex_node_trampoline.title=Скопление «Протобатутов»
-pda.waypoint.we.flex_node_funnel.title=Скопление «Протоворонок»
+pda.waypoint.we.blizzard_evacuate_teleport.title=«Пузырь»
 pda.waypoint.we.flex_node_carousel.title=Скопление «Протокаруселей»
+pda.waypoint.we.flex_node_electra.title=Скопление «Протоэлектр»
+pda.waypoint.we.flex_node_funnel.title=Скопление «Протоворонок»
 pda.waypoint.we.flex_node_kissel.title=Скопление «Протокиселей»
 pda.waypoint.we.flex_node_lighter.title=Скопление «Протожарок»
-
+pda.waypoint.we.flex_node_trampoline.title=Скопление «Протобатутов»
 pda.waypoint.we.limansk_chimera_boss.title=Логово Фантомной Химеры
 pda.waypoint.we.limansk_krovosos_boss.title=Логово Пси-кровососа
-
 pda.waypoint.we.ny24_boss_ice_snork.title=Ледяной снорк
-
-pda.waypoint.we.blizzard_evacuate_teleport.title=«Пузырь»
+pda.waypoint.we.sovhoz_boss_chimera.title=Морозная Химера
+pda.waypoint.we.sovhoz_boss_pseudo.title=Морозный Гигант
 pda.waypoint.we.sovhoz_camp_dog.title=Лежанка морозных собак
 pda.waypoint.we.sovhoz_camp_flesh.title=Лежанка морозных плотей
-
 pda.waypoint.we.sovhoz_camp_krovosos.title=Гнездо морозных кровососов
 pda.waypoint.we.sovhoz_camp_snork.title=Лежанка морозных снорков
-pda.waypoint.we.sovhoz_boss_pseudo.title=Морозный Гигант
-pda.waypoint.we.sovhoz_boss_chimera.title=Морозная Химера
-
 pda.waypoint.we.zaton_monolit_evacuation.title=Застава «Монолита»
 
-we.delivery.notification_text=Эй, не хочешь подзаработать? Отнеси одну штучку на Склады для меня, деньгами не обижу.
-
-we.antenna.notification_text=На локации активирована антенна «Монолита»
-we.abstract_camp_tushkan.status_title=Нора тушканов
 we.abstract_camp_dog.status_title=Логово собак
 we.abstract_camp_flesh.status_title=Лежанка плотей
 we.abstract_camp_krovosos.status_title=Гнездо кровососов
+we.abstract_camp_monolit_large.status_title=База «Монолита»
+we.abstract_camp_monolit.status_title=Отряд «Монолита»
 we.abstract_camp_snork.status_title=Лежанка снорков
+we.abstract_camp_tushkan.status_title=Нора тушканов
+we.abstract_contamination_antenna.status_title=Антенна «Монолита»
+we.antenna.notification_text=На локации активирована антенна «Монолита»
+
+we.delivery.notification_text=Эй, не хочешь подзаработать? Отнеси одну штучку на Склады для меня, деньгами не обижу.
+
+we.flex_node_carousel.status_title=Скопление «Протокаруселей»
+we.flex_node_electra.status_title=Скопление «Протоэлектр»
+we.flex_node_funnel.status_title=Скопление «Протоворонок»
+we.flex_node_kissel.status_title=Скопление «Протокиселей»
+we.flex_node_lighter.status_title=Скопление «Протожарок»
+we.flex_node_ny24_electra.status_title=Скопление снежных «Протоэлектр»
+we.flex_node_trampoline.status_title=Скопление «Протобатутов»
+
+we.limansk_chimera_boss.status_title=Логово Фантомной Химеры
+we.limansk_krovosos_boss.status_title=Логово пси-кровососа
+we.ny24_boss_ice_snork.status_title=Ледяной снорк
+
+we.sovhoz_boss_chimera.status_title=Морозная Химера
+we.sovhoz_boss_pseudo.status_title=Морозный Гигант
+we.sovhoz_camp_dog.status_title=Лежанка морозных собак
+we.sovhoz_camp_flesh.status_title=Лежанка морозных плотей
+we.sovhoz_camp_krovosos.status_title=Гнездо морозных кровососов
+we.sovhoz_camp_snork.status_title=Лежка морозных снорков
+we.zaton_monolit_evacuation.status_title=Застава «Монолита»
+
+craft_recipe.id.mozgovik.desc=Препарат из мозгов тушкана и мозгового гиацинта. Принимается внутрь, уменьшает восприимчивость к пси-излучению.
+craft_recipe.id.ointment_dogs.name=Собачий секрет из хвостов собак
+craft_recipe.id.ointment_dogs.desc=Мазь из растертых хвостов собак и голубого элхима. При нанесении на кожу формирует слой, неплохо защищающий от электричества и химических реагентов.
+craft_recipe.id.ointment_pseudodog.name=Собачий секрет из хвоста псевдособаки
+craft_recipe.id.ointment_pseudodog.desc=Мазь из растертого хвоста псевдособаки и голубого элхима. При нанесении на кожу формирует слой, неплохо защищающий от электричества и химических реагентов.
+
+craft_recipe.id.ointment_flesh.desc=Раствор из глаз плоти и огненного мака. При употреблении внутрь ускоряет восстановление организма от повреждений.
+craft_recipe.id.ointment_snork.desc=Согревающе масло из стоп снорка и кислого паутинника. Благоприятно воздействует на суставы, улучшая подвижность и ускоряя восстановление после нагрузок.
+
+map.location.id.agroprom.name=Агропром
+map.location.id.armsklad.name=Армейские склады
+map.location.id.atp.name=АТП
+map.location.id.bar_factory.name=Завод «Росток»
+map.location.id.kordon.name=Кордон
+map.location.id.limansk.name=Лиманск
+map.location.id.svalka.name=Свалка
+map.location.id.td.name=Темная долина
+map.location.id.zaton.name=Затон
+
+map.page.id.limansk.name=Лиманск
+
+map.safezone.id.bar.name=Завод «Росток»
+
+map.teleport.id.agroprom-kordon.name=Агропром-Кордон
+map.teleport.id.agroprom-svalka.name=Агропром-Свалка
+map.teleport.id.agroprom-yantar.name=Агропром-Яма
+map.teleport.id.armsklad-nbolota.name=Армейские склады-Могильник
+map.teleport.id.armsklad-radar.name=Армейские склады-Радар
+map.teleport.id.bar-armsklad.name=Бар-Армейские склады
+map.teleport.id.bolota-kordon.name=Болота-Кордон
+map.teleport.id.in_zaton.name=на Затон
+map.teleport.id.kordon-svalka.name=Кордон-Свалка
+map.teleport.id.kordon-td.name=Кордон-Темная долина
+map.teleport.id.limansk.name=в Лиманск
+map.teleport.id.mg-armsklad.name=Мертвый город-Армейские склады
+map.teleport.id.out_zaton.name=выход с Затона
+map.teleport.id.pd-armsklad.name=Путь Дураков-Армейские склады
+map.teleport.id.pd-limansk.name=Путь Дураков-Лиманск
+map.teleport.id.sever_entrance.name=Вход в «100 Рентген»
+map.teleport.id.sever_exit.name=Выход из «100 Рентген»
+map.teleport.id.svalka-bar.name=Свалка-Бар
+map.teleport.id.svalka-les.name=Свалка-Лес
+map.teleport.id.svalka-td.name=Свалка-Темная долина
+map.teleport.id.td-les.name=Темная долина-Лес
+map.teleport.id.up_armsklad.name=на поверхность (Армейские склады)
+map.teleport.id.yantar-svalka.name=Яма-Свалка
+
+map.global.region.limansk.name=Лиманск
+map.global.region.limansk.desc=Никто точно не может сказать, где именно находится \nЛиманск. Попасть в этот «блуждающий город» \nможно лишь с помощью специальных «Нор», \nназываемых «Бликами».\nУченые так и не пришли к единому мнению, находится ли Лиманск в некоем отдельном \nподпространстве, или же он просто появляется в \nразных частях Зоны, но всегда оказывается огражден \nмощным аномальным полем.
+
+map.global.region.zaton.desc=«Затон» является одним из наиболее суровых полигонов для \nпроверки сталкерских навыков выживания.\nВ этих краях замечено большое количество отрядов \n«Монолита».
+
+stalker.navigation.transition.agroprom-dungeon_kmpt_agro.name=Агропром
+stalker.navigation.transition.agroprom-kordon.name=Кордон
+stalker.navigation.transition.agroprom-svalka.name=Свалка
+stalker.navigation.transition.armsklad-bar.name=Завод «Росток»
+stalker.navigation.transition.armsklad-base_duty.name=База «Долга»
+stalker.navigation.transition.armsklad-undergrounds_armsklad.name=Подземелья Армейских складов
+stalker.navigation.transition.atp-kordon.name=Кордон
+stalker.navigation.transition.bar_save-bar_sever.name=Бар «100 Рентген»
+stalker.navigation.transition.bar_save-bar.name=Завод «Росток»
+stalker.navigation.transition.bar_save-outpost_duty.name=База «Долга»
+stalker.navigation.transition.bar_save-outpost_freedom.name=База «Свободы»
+stalker.navigation.transition.bar_sever-bar_save.name=Бар завода «Росток»
+stalker.navigation.transition.bar-armsklad.name=Армейские склады
+stalker.navigation.transition.bar-bar_save.name=Завод «Росток»
+stalker.navigation.transition.bar-dungeon_chimera.name=Завод «Росток»
+stalker.navigation.transition.bar-svalka.name=Свалка
+stalker.navigation.transition.base_covenant-outpost_covenant.name=Бар завода «Росток»
+stalker.navigation.transition.base_duty-outpost_duty.name=Бар завода «Росток»
+stalker.navigation.transition.base_freedom-outpost_freedom.name=Бар завода «Росток»
+stalker.navigation.transition.base_merc-outpost_merc.name=Бар завода «Росток»
+stalker.navigation.transition.bolota-kordon.name=Кордон
+stalker.navigation.transition.dungeon_borov-kordon.name=Кордон
+stalker.navigation.transition.dungeon_chimera-bar.name=Завод «Росток»
+stalker.navigation.transition.dungeon_domiki-kordon.name=Кордон
+stalker.navigation.transition.dungeon_domiki2-kordon.name=Кордон
+stalker.navigation.transition.dungeon_domikizryach-svalka.name=Свалка
+stalker.navigation.transition.dungeon_gribochki-td.name=Темная Долина
+stalker.navigation.transition.dungeon_kmpt_agro-agroprom.name=Агропром
+stalker.navigation.transition.dungeon_kompot_alco-bar.name=Завод «Росток»
+stalker.navigation.transition.dungeon_kompot_zemlyanka-armsklad.name=Армейские склады
+stalker.navigation.transition.dungeon_koshmar-bar_save.name=Бар завода «Росток»
+stalker.navigation.transition.dungeon_minks-svalka.name=Свалка
+stalker.navigation.transition.dungeon_mozglyak-agroprom.name=Агропром
+stalker.navigation.transition.dungeon_nasip-kordon.name=Кордон
+stalker.navigation.transition.dungeon_perbar-bar.name=Завод «Росток»
+stalker.navigation.transition.dungeon_perestrelka-bar_save.name=Бар завода «Росток»
+stalker.navigation.transition.dungeon_psisobaka-agroprom.name=Агропром
+stalker.navigation.transition.dungeon_psisobaka-td.name=Темная Долина
+stalker.navigation.transition.dungeon_pumpstation-bar.name=Завод «Росток»
+stalker.navigation.transition.dungeon_radar-armsklad.name=Армейские склады
+stalker.navigation.transition.dungeon_sanitar-kordon.name=Кордон
+stalker.navigation.transition.dungeon_spusk-armsklad.name=Армейские склады
+stalker.navigation.transition.dungeon_stels-armsklad.name=Армейские склады
+stalker.navigation.transition.dungeon_tonnelradar-kordon.name=Кордон
+stalker.navigation.transition.dungeon_tonnelradar-svalka.name=Свалка
+stalker.navigation.transition.dungeon_wrwf_agro-agroprom.name=Агропром
+stalker.navigation.transition.dungeon_zemlcap1-kordon.name=Кордон
+stalker.navigation.transition.foton2-kordon.name=Кордон
+stalker.navigation.transition.kordon-agroprom.name=Агропром
+stalker.navigation.transition.kordon-atp.name=АТП
+stalker.navigation.transition.kordon-dungeon_domiki.name=Кордон
+stalker.navigation.transition.kordon-dungeon_domiki2.name=Кордон
+stalker.navigation.transition.kordon-svalka.name=Свалка
+stalker.navigation.transition.kordon-td.name=Темная Долина
+stalker.navigation.transition.les-bar.name=Завод «Росток»
+stalker.navigation.transition.les-svalka.name=Свалка
+stalker.navigation.transition.les-td.name=Темная Долина
+stalker.navigation.transition.mg-armsklad.name=Армейские склады
+stalker.navigation.transition.mg-bar.name=Завод «Росток»
+stalker.navigation.transition.mg-pd.name=Путь Дураков
+stalker.navigation.transition.nbolota-armsklad.name=Армейские склады
+stalker.navigation.transition.north_barrier-limansk.name=Лиманск
+stalker.navigation.transition.north_forge-zaton.name=Затон
+stalker.navigation.transition.north_hrop-limansk.name=Лиманск
+stalker.navigation.transition.north_institute-limansk.name=Лиманск
+stalker.navigation.transition.north_serpentine-limansk.name=Лиманск
+stalker.navigation.transition.outpost_covenant-bar_save.name=Бар завода «Росток»
+stalker.navigation.transition.outpost_duty-bar_save.name=Бар завода «Росток»
+stalker.navigation.transition.outpost_freedom-bar_save.name=Бар завода «Росток»
+stalker.navigation.transition.outpost_merc-bar_save.name=Бар завода «Росток»
+stalker.navigation.transition.pd-armsklad.name=Армейские склады
+stalker.navigation.transition.rls-limansk.name=Лиманск
+stalker.navigation.transition.rls-zaton.name=Затон
+stalker.navigation.transition.svalka-agroprom.name=Агропром
+stalker.navigation.transition.svalka-bar.name=Завод «Росток»
+stalker.navigation.transition.svalka-inside_svalka.name=Изнанка Свалки
+stalker.navigation.transition.svalka-kordon.name=Кордон
+stalker.navigation.transition.svalka-td.name=Темная Долина
+stalker.navigation.transition.td-kordon.name=Кордон
+stalker.navigation.transition.td-svalka.name=Свалка
+stalker.navigation.transition.yanov-armsklad.name=Армейские склады
+stalker.navigation.transition.yanov-limansk.name=Лиманск
+stalker.navigation.transition.yanov-zaton.name=Затон
+stalker.navigation.transition.yantar-agroprom.name=Агропром
+stalker.navigation.transition.yantar-bar.name=Завод «Росток»
+stalker.navigation.transition.yantar-svalka.name=Свалка
