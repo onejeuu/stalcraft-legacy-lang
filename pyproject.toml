@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stalcraft-legacy-lang-mod"
+version = "1.0.0"
+description = "Mod for stalcraft, returning original localization before day x update"
+authors = ["onejeuu <mail@66rk.ru>"]
+license = "MIT"
+readme = "README.md"
+
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+inquirer = "^3.4.0"
+inquirerpy = "^0.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
