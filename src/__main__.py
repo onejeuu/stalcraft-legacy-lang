@@ -17,19 +17,18 @@ def mod_is_installed(assets: Path):
     return any([localization.backup_name(assets / lang.value).exists() for lang in LangPath])
 
 
-def apply(original: Path, options: list[ModOption], lang: LangPath):
+def apply(orig: Path, options: list[ModOption], lang: LangPath):
     mods = utils.options_to_path(options, lang)
 
-    updated = localization.apply(path=original, mods=mods)
+    updated = localization.apply(path=orig, mods=mods)
 
-    localization.save(original, updated)
+    localization.save(orig, updated)
 
 
 def install(assets: Path, options: list[ModOption]):
     for lang in LangPath:
-        original = assets / lang.value
-        localization.backup(original)
-        apply(original, options, lang)
+        orig = assets / lang.value
+        apply(orig, options, lang)
 
 
 def uninstall(assets: Path):

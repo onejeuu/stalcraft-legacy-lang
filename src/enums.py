@@ -4,10 +4,11 @@ from pathlib import Path
 
 class ModOption(StrEnum):
     LOCATIONS = "Локации"
-    MOBS = "Мутанты"
+    FRACTIONS = "Фракции"
     EQUIPMENTS = "Снаряжение"
     ARTEFACTS = "Артефакты"
-    ITEMS = "Предметы"
+    ANOMALIES = "Аномалии"
+    MOBS = "Мутанты"
     SKINS = "Облики"
 
 

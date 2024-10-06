@@ -1,0 +1,23 @@
+stalker.hud.zone_entering.ownership.settlement.duty=База «Долга»
+stalker.hud.zone_entering.ownership.settlement.freedom=База «Свободы»
+stalker.hud.zone_entering.ownership.settlement.merc=База Наемников
+stalker.hud.zone_entering.ownership.settlement.covenant=База «Завета»
+stalker.hud.zone_entering.ownership.camp.duty=Лагерь «Долга»
+stalker.hud.zone_entering.ownership.camp.freedom=Лагерь «Свободы»
+stalker.hud.zone_entering.ownership.camp.merc=Лагерь Наемников
+stalker.hud.zone_entering.ownership.camp.covenant=Лагерь «Завета»
+
+stalker.gui.death_screen.faction.duty.name=«Долг»
+stalker.gui.death_screen.faction.freedom.name=«Свобода»
+stalker.gui.death_screen.faction.merc.name=Наемники
+stalker.gui.death_screen.faction.covenant.name=«Завет»
+stalker.gui.death_screen.faction.monolith.name=«Монолит»
+
+stalker.alliance.name.duty=Долг
+stalker.alliance.member.duty=Боец «Долга»
+stalker.alliance.name.freedom=Свобода
+stalker.alliance.member.freedom=Боец «Свободы»
+stalker.alliance.name.merc=Наемники
+stalker.alliance.member.merc=Наемник
+stalker.alliance.name.covenant=Завет
+stalker.alliance.member.covenant=Боец «Завета»

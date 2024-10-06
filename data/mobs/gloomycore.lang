@@ -1,0 +1,30 @@
+general.stats.stat.mut-pse-kil=Убито псевдособак
+general.stats.stat.mut-dog-kil=Убито слепых псов
+general.stats.stat.mut-flsh-kil=Убито плотей
+general.stats.stat.mut-psi-kil=Убито псисобак
+general.stats.stat.mut-krv-kil=Убито кровососов
+general.stats.stat.mut-elp-kil=Убито снорков
+general.stats.stat.mut-gig-kil=Убито псевдогигантов
+general.stats.stat.mut-tush-kil=Убито тушканчиков
+general.stats.stat.mut-chi-kill=Убито химер
+
+entity.himera.name=Химера
+entity.slepoi_pes.name=Слепой пес
+entity.plot.name=Плоть
+entity.krovosos.name=Кровосос
+entity.psevdopes.name=Псевдопес
+entity.psevdogigant.name=Псевдогигант
+entity.psi-sobaka.name=Пси-собака
+entity.snork.name=Снорк
+entity.tushkanchik.name=Тушканчик
+
+
+entity.himera_illuziya.name=Химера (иллюзия)
+entity.slepoi_pes_illuziya.name=Слепой пес (иллюзия)
+entity.plot_illuziya.name=Плоть (иллюзия)
+entity.krovosos_illuziya.name=Кровосос (иллюзия)
+entity.psevdopes_illuziya.name=Псевдопес (иллюзия)
+entity.psevdogigant_illuziya.name=Псевдогигант (иллюзия)
+entity.psi-sobaka_illuziya.name=Пси-собака (иллюзия)
+entity.snork_illuziya.name=Снорк (иллюзия)
+entity.tushkanchik_illuziya.name=Тушканчик (иллюзия)
