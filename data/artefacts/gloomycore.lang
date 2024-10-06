@@ -1,3 +1,21 @@
+go.carousel.name=Карусель
+go.circus.name=Цирк
+go.electra.name=Электра
+go.funnel.name=Воронка
+go.lighter.name=Жарка
+go.steam.name=Пар
+go.tramp.name=Трамплин
+
+tile.carousel.name=«Карусель»
+tile.circus.name=«Цирк»
+tile.electra.name=«Электра»
+tile.hole.name=«Воронка»
+tile.kissel_fluid.name=Кисель
+tile.lighter.name=«Жарка»
+tile.steam.name=«Пар»
+tile.teleport_bubble.name=Пространственный пузырь
+tile.tramp.name=«Трамплин»
+
 general.stats.stat.fun-ano-dea=Смертей от «Воронки»
 general.stats.stat.car-ano-dea=Смертей от «Карусели»
 general.stats.stat.kis-ano-dea=Смертей от «Киселя»
@@ -11,27 +29,8 @@ death.attack.electra.subject={entityName} убило «Электрой»
 death.attack.carousel.subject={entityName} разорвало «Каруселью»
 death.attack.kissel.subject={entityName} растворился в «Киселе»
 death.attack.steam.subject={entityName} сварился в «Паре»
-death.attack.trampoline.subject={entityName} разорвало «Батутом»
+death.attack.trampoline.subject={entityName} разорвало «Трамплином»
 death.attack.blackhole.subject={entityName} затянуло в «Воронку»
 death.attack.lighter.subject={entityName} сгорел в «Жарке»
 death.attack.circus.subject={entityName} погиб от «Цирка»
 death.attack.puh.subject={entityName} погиб от «Пуха»
-
-tile.tramp.name=«Трамплин»
-tile.carousel.name=«Карусель»
-tile.hole.name=«Воронка»
-tile.lighter.name=«Жарка»
-tile.electra.name=«Электра»
-tile.steam.name=«Пар»
-tile.circus.name=«Цирк»
-
-go.tramp.name=Трамплин
-go.carousel.name=Карусель
-go.funnel.name=Воронка
-go.lighter.name=Жарка
-go.electra.name=Электра
-go.steam.name=Пар
-go.circus.name=Цирк
-
-tile.teleport_bubble.name=Пространственный пузырь
-tile.kissel_fluid.name=Кисель
