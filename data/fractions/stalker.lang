@@ -108,3 +108,8 @@ loadscreens.location.north_inflow.desc=Область между Барьеро�
 
 loadscreens.location.base_duty.name=База «Долга»
 loadscreens.location.base_freedom.name=База «Свободы»
+
+general.achievement.id.sujet_duty.desc=За прохождение квеста на Ваганта за «Долг».
+general.achievement.id.sujet_freedom.desc=За прохождение квеста на Ваганта за «Свободу».
+
+general.achievement.id.alliance_join.desc=Вступить в ряды «Долга», «Свободы», «Завета» или Наемников
