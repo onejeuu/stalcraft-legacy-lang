@@ -3,14 +3,14 @@ from typing import Any
 
 from prompt_toolkit.validation import ValidationError, Validator
 
-from src.consts import PathRequired
+from src.consts import RequiredPath
 
 
 class AssetsPathValidator(Validator):
     def _find_assets(self, path: Path):
         if "steamapps" in path.parts:
-            return self._validate_assets(path, PathRequired.STEAM)
-        return self._validate_assets(path, PathRequired.LAUNCHER)
+            return self._validate_assets(path, RequiredPath.STEAM)
+        return self._validate_assets(path, RequiredPath.LAUNCHER)
 
     def _validate_assets(self, path: Path, required: Path):
         parts = list(path.parts)

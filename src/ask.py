@@ -28,14 +28,7 @@ def enter_assets_path():
 def mod_options():
     return inquirer.checkbox(  # type: ignore
         message="Выберите опции модификации (на пробел):",
-        choices=[
-            Choice(ModOption.LOCATIONS, name="Локации", enabled=True),
-            Choice(ModOption.MOBS, name="Мутанты", enabled=True),
-            Choice(ModOption.EQUIPMENTS, name="Снаряжение", enabled=True),
-            Choice(ModOption.ARTEFACTS, name="Артефакты", enabled=True),
-            Choice(ModOption.ITEMS, name="Предметы", enabled=True),
-            Choice(ModOption.SKINS, name="Облики", enabled=True),
-        ],
+        choices=[Choice(option, name=option.value, enabled=True) for option in ModOption],
         validate=EmptyInputValidator(),
         transformer=lambda result: ", ".join(result),
         keybindings={

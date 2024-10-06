@@ -11,11 +11,11 @@ def define_path():
 
 
 def install():
-    path = define_path()
-    print(path)
+    assets = define_path()
+    print(assets)
 
-    answer = ask.mod_options()
-    print(answer)
+    options = ask.mod_options()
+    print(options)
 
 
 def main():

@@ -6,7 +6,15 @@ class GamePath:
     STALCRAFT = APPDATA / "EXBO" / "runtime" / "stalcraft"
     ASSETS = STALCRAFT / "modassets" / "assets"
 
+    # TODO: delete test value
+    ASSETS = Path("G:/SCASSETS.LANG")
 
-class PathRequired:
+
+class RequiredPath:
     LAUNCHER = Path("runtime/stalcraft/modassets/assets")
     STEAM = Path("modassets/assets")
+
+
+class LangPath:
+    GLOOMY = Path("gloomycore/lang/ru.lang")
+    STALKER = Path("stalker/lang/ru.lang")

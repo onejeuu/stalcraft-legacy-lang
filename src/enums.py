@@ -1,10 +1,10 @@
-from enum import StrEnum, auto
+from enum import StrEnum
 
 
 class ModOption(StrEnum):
-    LOCATIONS = auto()
-    MOBS = auto()
-    EQUIPMENTS = auto()
-    ARTEFACTS = auto()
-    ITEMS = auto()
-    SKINS = auto()
+    LOCATIONS = "Локации"
+    MOBS = "Мутанты"
+    EQUIPMENTS = "Снаряжение"
+    ARTEFACTS = "Артефакты"
+    ITEMS = "Предметы"
+    SKINS = "Облики"
