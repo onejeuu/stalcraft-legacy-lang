@@ -19,33 +19,30 @@ def load(path: Path) -> Localization:
     return localization
 
 
-def save(original: Path, localization: Localization):
-    with open(original, "w", encoding="utf-8") as f:
+def save(output: Path, localization: Localization):
+    with open(output, "w", encoding="utf-8") as f:
         for key, value in localization.items():
             f.write(f"{key}={value}\n")
 
 
-def update(original: Localization, modded: Localization):
+def update(localization: Localization, modded: Localization):
     for key, new_value in modded.items():
-        original[key] = new_value
-    return original
+        localization[key] = new_value
+    return localization
 
 
-def backup(original: Path):
-    bck = original.with_name(f"{original.name}.bck")
+def backup(path: Path):
+    bck = path.with_name(f"{path.name}.bck")
 
     if bck.exists():
-        original.unlink()
-        bck.rename(original.name)
+        path.unlink(missing_ok=True)
+        bck.rename(path)
 
-    shutil.copy2(original, bck)
+    shutil.copy2(path, bck)
 
 
-def apply(original: Path, mods: list[Path]):
-    backup(original)
-
-    localization = load(original)
+def apply(path: Path, mods: list[Path]):
+    localization = load(path)
 
     updated = reduce(lambda base, mod: update(base, load(mod)), mods, localization)
-
-    save(original, updated)
+    return updated

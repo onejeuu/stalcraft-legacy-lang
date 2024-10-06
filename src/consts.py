@@ -1,6 +1,9 @@
 from pathlib import Path
 
 
+DATA = Path("data")
+
+
 class GamePath:
     APPDATA = Path.home() / "AppData" / "Roaming"
     STALCRAFT = APPDATA / "EXBO" / "runtime" / "stalcraft"
@@ -13,8 +16,3 @@ class GamePath:
 class RequiredPath:
     LAUNCHER = Path("runtime/stalcraft/modassets/assets")
     STEAM = Path("modassets/assets")
-
-
-class LangPath:
-    GLOOMY = Path("gloomycore/lang/ru.lang")
-    STALKER = Path("stalker/lang/ru.lang")

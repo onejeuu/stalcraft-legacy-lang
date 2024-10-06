@@ -1,4 +1,5 @@
-from enum import StrEnum
+from enum import Enum, StrEnum
+from pathlib import Path
 
 
 class ModOption(StrEnum):
@@ -8,3 +9,8 @@ class ModOption(StrEnum):
     ARTEFACTS = "Артефакты"
     ITEMS = "Предметы"
     SKINS = "Облики"
+
+
+class LangPath(Enum):
+    GLOOMYCORE = Path("gloomycore/lang/ru.lang")
+    STALKER = Path("stalker/lang/ru.lang")
