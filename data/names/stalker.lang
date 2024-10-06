@@ -1,0 +1,284 @@
+savepoints.id.savepoint_garage.name=АТП
+
+region.stalkers_kordon.name=АТП
+
+settlement.id.garage.title=АТП
+
+settlement.id.garage.level.2.desc=Кордон переполнен разномастными искателями приключений - вас принимают за одного из них. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.garage.level.3.desc=На Кордоне часто происходят стычки с военными (в том числе с совсем «зелеными» - духами). Похоже, вас принимают за одного из «охотников на духов» - людей, которые умеют обходить военные патрули и не боятся открытого боя. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.garage.level.4.desc=Ваши поступки на Кордоне показали окружающим, что вы - надежный человек. Сталкеры рассчитывают на вас и почти всегда готовы пойти вам навстречу. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.garage.level.5.desc=Опытных сталкеров, живущих на «границе двух миров», между Большой землей и Зоной, нередко зовут «пограничниками». Пограничники на Кордоне - всегда желанные гости.
+
+settlement.id.foton2.level.4.desc=Опыт, ум и хладнокровие - вот что отличает мастера от других бандитов-работяг, которые целыми толпами ошиваются по Кордону. То, что вас принимают за мастера - хороший знак. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.foton2.level.5.desc=Бандитские дела на Кордоне сосредоточены в руках Бригадиров - самых опытных и уважаемых людей, для которых большинство законов попросту не писаны.
+
+settlement.id.rostok.level.7.perk.sever=Доступ в «100 Рентген»
+
+settlement.id.sever.title=Бар «100 Рентген»
+settlement.id.sever.default_desc=Самых молодых гостей бара «100 Рентген» называют «облученными». Про вас шутят, что вам уже довелось «хлебнуть радиации». Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.sever.level.2.desc=Сорвиголов в «100 Рентген» уважают - вы готовы пойти на большой риск ради хорошей добычи. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.sever.level.3.desc=Чем рискованней походы, в которые отправляются посетители «100 Рентген», тем больше они приносят добычи и крутых историй. И тем чаще их моча светится в темноте. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.sever.level.4.desc=Когда вы в «100 Рентген», местные забулдыги не боятся, что вдруг перегорит лампочка - ведь вы будете светиться в темноте! Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.sever.level.5.desc=Люди говорят, что вам даже атомная война и апокалипсис не страшны - настолько вы привыкли выживать в Зоне, что рискуете даже не заметить, если что-то подобное начнется. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+
+personal_storage.availability.settlement.garage=Требуемая репутация:\nАТП - Пограничник (5)
+personal_storage.availability.settlement.sever=Требуемая репутация:\nБар «100 Рентген» - Легенда Зоны (7)
+
+cnps.availability.desc.barter.trader_garage.kordon_safezone_2=АТП - Авантюрист (2)
+cnps.availability.desc.barter.trader_garage.kordon_safezone_3=АТП - Охотник на духов (3)
+cnps.availability.desc.barter.trader_garage.kordon_safezone_4=АТП - Свой человек (4)
+cnps.availability.desc.barter.trader_garage.kordon_safezone_5=АТП - Пограничник (5)
+
+cnps.availability.desc.barter.trader_sever.sever_safezone_2=Бар «100 Рентген» - Сорвиголова (2)
+cnps.availability.desc.barter.trader_sever.sever_safezone_3=Бар «100 Рентген» - Атомный авантюрист (3)
+cnps.availability.desc.barter.trader_sever.sever_safezone_4=Бар «100 Рентген» - Светящийся (4)
+cnps.availability.desc.barter.trader_sever.sever_safezone_5=Бар «100 Рентген» - Выживальщик (5)
+cnps.availability.desc.barter.trader_sever.sever_safezone_6=Бар «100 Рентген» - Ликвидатор (6)
+cnps.availability.desc.barter.trader_sever.sever_safezone_7=Бар «100 Рентген» - Легенда Зоны (7)
+
+cnps.availability.desc.trader.supplier_garage.safezone_kordon_2=Гаражи - Авантюрист (2)
+cnps.availability.desc.trader.supplier_garage.safezone_kordon_3=Гаражи - Охотник на духов (3)
+
+cnps.availability.desc.trader.supplier_sever.safezone_sever_2=Бар «100 Рентген» - Сорвиголова (2)
+cnps.availability.desc.trader.supplier_sever.safezone_sever_3=Бар «100 Рентген» - Атомный авантюрист (3)
+cnps.availability.desc.trader.supplier_sever.safezone_sever_5=Бар «100 Рентген» - Выживальщик (5)
+cnps.availability.desc.trader.supplier_sever.safezone_sever_6=Бар «100 Рентген» - Ликвидатор (6)
+cnps.availability.desc.trader.supplier_sever.safezone_sever_7=Бар «100 Рентген» - Легенда Зоны (7)
+
+delivery.abstract_armsklad_bandit.name=Армейские Склады
+delivery.abstract_armsklad_stalker.name=Армейские Склады
+delivery.abstract_armsklad_scientist.name=Армейские Склады
+delivery.abstract_zaton_scientist.name=Затон
+delivery.abstract_zaton_stranger.name=Затон
+delivery.abstract_zaton_digger.name=Затон
+delivery.abstract_zaton_fighter.name=Затон
+delivery.abstract_zaton_hunter.name=Затон
+delivery.abstract_svalka_bandit.name=Свалка
+delivery.abstract_svalka_stalker.name=Свалка
+delivery.abstract_agroprom_bandit.name=Агропром
+delivery.abstract_td_stalker.name=Темная Долина
+delivery.abstract_kordon_bandit.name=Кордон
+delivery.abstract_kordon_stalker.name=Кордон
+
+delivery.abstract_armsklad_bandit_premium.name=Армейские Склады
+delivery.abstract_armsklad_stalker_premium.name=Армейские Склады
+delivery.abstract_armsklad_scientist_premium.name=Армейские Склады
+delivery.abstract_zaton_scientist_premium.name=Затон
+delivery.abstract_zaton_stranger_premium.name=Затон
+delivery.abstract_zaton_digger_premium.name=Затон
+delivery.abstract_zaton_fighter_premium.name=Затон
+delivery.abstract_zaton_hunter_premium.name=Затон
+delivery.abstract_svalka_bandit_premium.name=Свалка
+delivery.abstract_svalka_stalker_premium.name=Свалка
+delivery.abstract_agroprom_bandit_premium.name=Агропром
+delivery.abstract_td_stalker_premium.name=Темная Долина
+delivery.abstract_kordon_bandit_premium.name=Кордон
+delivery.abstract_kordon_stalker_premium.name=Кордон
+
+quest_contract.quest_event_bandit_bar_1_premium.title=Сталкеры в Баре
+quest_contract.quest_event_bandit_bar_1.title=Собаки в Яме
+quest_contract.quest_event_bandit_bar_1.title=Собаки в Яме
+quest_contract.quest_event_bandit_bar_10.title=Собаки в Мертвом городе
+quest_contract.quest_event_bandit_bar_10.title=Собаки в Мертвом городе
+quest_contract.quest_event_bandit_bar_11.title=Тушканы в Мертвом городе
+quest_contract.quest_event_bandit_bar_11.title=Тушканы в Мертвом городе
+quest_contract.quest_event_bandit_bar_12.title=Кровососы в Мертвом городе
+quest_contract.quest_event_bandit_bar_12.title=Кровососы в Мертвом городе
+quest_contract.quest_event_bandit_bar_16.title=Собаки на Пути Дураков
+quest_contract.quest_event_bandit_bar_16.title=Собаки на Пути Дураков
+quest_contract.quest_event_bandit_bar_18.title=Плоти на Пути Дураков
+quest_contract.quest_event_bandit_bar_18.title=Плоти на Пути Дураков
+quest_contract.quest_event_bandit_bar_19.title=Кровососы на Пути Дураков
+quest_contract.quest_event_bandit_bar_19.title=Кровососы на Пути Дураков
+quest_contract.quest_event_bandit_bar_22.title=Сталкеры на Армах
+quest_contract.quest_event_bandit_bar_22.title=Сталкеры на Армах
+quest_contract.quest_event_bandit_bar_3.title=Тушканы в Яме
+quest_contract.quest_event_bandit_bar_3.title=Тушканы в Яме
+quest_contract.quest_event_bandit_bar_4.title=Плоти в Яме
+quest_contract.quest_event_bandit_bar_4.title=Плоти в Яме
+quest_contract.quest_event_bandit_bar_5.title=Кровососы в Яме
+quest_contract.quest_event_bandit_bar_5.title=Кровососы в Яме
+quest_contract.quest_event_bandit_mg_1_premium.title=Собаки в Мертвом городе
+quest_contract.quest_event_bandit_mg_2_premium.title=Тушканы в Мертвом городе
+quest_contract.quest_event_bandit_mg_3_premium.title=Кровососы в Мертвом городе
+quest_contract.quest_event_bandit_pd_1_premium.title=Собаки на Пути Дураков
+quest_contract.quest_event_bandit_pd_3_premium.title=Плоти на Пути Дураков
+quest_contract.quest_event_bandit_pd_4_premium.title=Кровососы на Пути Дураков
+quest_contract.quest_event_bandit_pd_6_premium.title=Сталкеры на Армах
+quest_contract.quest_event_bandit_yantar_1_premium.title=Собаки в Яме
+quest_contract.quest_event_bandit_yantar_3_premium.title=Тушканы в Яме
+quest_contract.quest_event_bandit_yantar_4_premium.title=Плоти в Яме
+quest_contract.quest_event_bandit_yantar_5_premium.title=Кровососы в Яме
+
+quest_contract.quest_event_bar_1_premium.title=Снорки с Центра
+quest_contract.quest_event_bar_24.title=Снорки с Центра
+quest_contract.quest_event_bar_24.title=Снорки с Центра
+quest_contract.quest_event_bar_4_premium.title=Собаки в Баре
+quest_contract.quest_event_bar_5_premium.title=Плоти в Баре
+quest_contract.quest_event_bar_6_premium.title=Кровососы в Баре
+quest_contract.quest_event_bar_7_premium.title=Аномалки в Баре
+
+quest_contract.quest_event_factions_1_premium.title=Собаки на Севере
+quest_contract.quest_event_factions_10_premium.title=Химера на Севере
+quest_contract.quest_event_factions_3_premium.title=Тушканы на Севере
+quest_contract.quest_event_factions_4_premium.title=Плоти на Севере
+quest_contract.quest_event_factions_5_premium.title=Кровососы на Севере
+quest_contract.quest_event_factions_6_premium.title=Снорки на Севере
+quest_contract.quest_event_factions_9_premium.title=Псевдогигант на Севере
+
+quest_contract.quest_event_limansk_1.title=Собаки в Лиманске
+quest_contract.quest_event_limansk_10.title=Аномалки в Лиманске
+quest_contract.quest_event_limansk_11.title=Плоти в Лиманске
+quest_contract.quest_event_limansk_2.title=Кабаны в Лиманске
+quest_contract.quest_event_limansk_5.title=Кровососы в Лиманске
+quest_contract.quest_event_limansk_7.title=Зомби в Лиманске
+quest_contract.quest_event_limansk_8.title=Военные в Лиманске
+quest_contract.quest_event_limansk_9.title=Монолитовцы в Лиманске
+
+quest_contract.quest_event_sever_1_premium.title=Собаки на Севере
+quest_contract.quest_event_sever_1.title=Собаки на Севере
+quest_contract.quest_event_sever_10_premium.title=Химера на Севере
+quest_contract.quest_event_sever_3_premium.title=Тушканы на Севере
+quest_contract.quest_event_sever_3.title=Тушканы на Севере
+quest_contract.quest_event_sever_4_premium.title=Плоти на Севере
+quest_contract.quest_event_sever_4.title=Плоти на Севере
+quest_contract.quest_event_sever_5_premium.title=Кровососы на Севере
+quest_contract.quest_event_sever_5.title=Кровососы на Севере
+quest_contract.quest_event_sever_6_premium.title=Снорки на Севере
+quest_contract.quest_event_sever_6.title=Снорки на Севере
+quest_contract.quest_event_sever_9_premium.title=Псевдогигант на Севере
+
+quest_contract.quest_event_stalker_armsklad_1_premium.title=Собаки на Армах
+quest_contract.quest_event_stalker_armsklad_2_premium.title=Кабаны на Армах
+quest_contract.quest_event_stalker_armsklad_3_premium.title=Тушканы на Армах
+quest_contract.quest_event_stalker_armsklad_4_premium.title=Плоти на Армах
+quest_contract.quest_event_stalker_armsklad_5_premium.title=Кровососы на Армах
+quest_contract.quest_event_stalker_armsklad_6_premium.title=Зомби на Армах
+quest_contract.quest_event_stalker_armsklad_8_premium.title=Аномалки на Армах
+quest_contract.quest_event_stalker_bar_1_premium.title=Бандиты в Баре
+quest_contract.quest_event_stalker_bar_1.title=Собаки в Лесу
+quest_contract.quest_event_stalker_bar_1.title=Собаки в Лесу
+quest_contract.quest_event_stalker_bar_10.title=Тушканы в Могильнике
+quest_contract.quest_event_stalker_bar_10.title=Тушканы в Могильнике
+quest_contract.quest_event_stalker_bar_11.title=Плоти в Могильнике
+quest_contract.quest_event_stalker_bar_11.title=Плоти в Могильнике
+quest_contract.quest_event_stalker_bar_12.title=Кровососы в Могильнике
+quest_contract.quest_event_stalker_bar_12.title=Кровососы в Могильнике
+quest_contract.quest_event_stalker_bar_15.title=Собаки на Армах
+quest_contract.quest_event_stalker_bar_15.title=Собаки на Армах
+quest_contract.quest_event_stalker_bar_16.title=Кабаны на Армах
+quest_contract.quest_event_stalker_bar_16.title=Кабаны на Армах
+quest_contract.quest_event_stalker_bar_17.title=Тушканы на Армах
+quest_contract.quest_event_stalker_bar_17.title=Тушканы на Армах
+quest_contract.quest_event_stalker_bar_18.title=Плоти на Армах
+quest_contract.quest_event_stalker_bar_18.title=Плоти на Армах
+quest_contract.quest_event_stalker_bar_19.title=Кровососы на Армах
+quest_contract.quest_event_stalker_bar_19.title=Кровососы на Армах
+quest_contract.quest_event_stalker_bar_21.title=Зомби на Армах
+quest_contract.quest_event_stalker_bar_21.title=Зомби на Армах
+quest_contract.quest_event_stalker_bar_23.title=Аномалки на Армах
+quest_contract.quest_event_stalker_bar_23.title=Аномалки на Армах
+quest_contract.quest_event_stalker_bar_3.title=Тушканы в Лесу
+quest_contract.quest_event_stalker_bar_3.title=Тушканы в Лесу
+quest_contract.quest_event_stalker_bar_4.title=Плоти в Лесу
+quest_contract.quest_event_stalker_bar_4.title=Плоти в Лесу
+quest_contract.quest_event_stalker_bar_5.title=Кровососы в Лесу
+quest_contract.quest_event_stalker_bar_5.title=Кровососы в Лесу
+quest_contract.quest_event_stalker_bar_6.title=Снорки с Центра
+quest_contract.quest_event_stalker_bar_6.title=Снорки с Центра
+quest_contract.quest_event_stalker_les_1_premium.title=Собаки в Лесу
+quest_contract.quest_event_stalker_les_3_premium.title=Тушканы в Лесу
+quest_contract.quest_event_stalker_les_4_premium.title=Плоти в Лесу
+quest_contract.quest_event_stalker_les_5_premium.title=Кровососы в Лесу
+quest_contract.quest_event_stalker_nbolota_1_premium.title=Тушканы в Могильнике
+quest_contract.quest_event_stalker_nbolota_2_premium.title=Плоти в Могильнике
+quest_contract.quest_event_stalker_nbolota_3_premium.title=Кровососы в Могильнике
+
+quest_contract.quest_install_scans_kordon_bandit_1.title=Кордон
+quest_contract.quest_install_scans_sever_8.title=Затон
+
+quest_contract.quest_limansk_event_1_premium.title=Собаки в Лиманске
+quest_contract.quest_limansk_event_2_premium.title=Кабаны в Лиманске
+quest_contract.quest_limansk_event_3_premium.title=Кровососы в Лиманске
+quest_contract.quest_limansk_event_4_premium.title=Зомби в Лиманске
+quest_contract.quest_limansk_event_5_premium.title=Помеха в Лиманске
+
+quest_contract.quest_murder_bar_1_premium.title=Собаки-слепыши
+quest_contract.quest_murder_bar_1.title=Собаки-слепыши
+quest_contract.quest_murder_bar_3_premium.title=Стая плотей
+quest_contract.quest_murder_bar_3.title=Стая плотей
+quest_contract.quest_murder_bar_4_premium.title=Тушканчики
+quest_contract.quest_murder_bar_4.title=Тушканчики
+quest_contract.quest_murder_bar_5_premium.title=Кровососы
+quest_contract.quest_murder_bar_5.title=Кровососы
+quest_contract.quest_murder_factions_11_premium.title=Лиманские вепри
+quest_contract.quest_murder_factions_12_premium.title=Лиманские кровососы
+quest_contract.quest_murder_factions_14_premium.title=Пси-кровосос
+quest_contract.quest_murder_factions_15_premium.title=Фантомная химера
+quest_contract.quest_murder_factions_4_premium.title=Дикие собаки
+quest_contract.quest_murder_factions_6_premium.title=Кровососы Севера
+quest_contract.quest_murder_factions_7_premium.title=Лиманские фанатики
+quest_contract.quest_murder_factions_8_premium.title=Лиманские дворняги
+quest_contract.quest_murder_kordon_1_premium.title=Слепые псы
+quest_contract.quest_murder_kordon_1.title=Слепые псы
+quest_contract.quest_murder_kordon_2_premium.title=Тушканчики
+quest_contract.quest_murder_kordon_2.title=Тушканчики
+quest_contract.quest_murder_sever_10.title=Лиманские фанатики
+quest_contract.quest_murder_sever_13.title=Кровососы Севера
+quest_contract.quest_murder_sever_14.title=Лиманские кровососы
+quest_contract.quest_murder_sever_19.title=Пси-кровосос
+quest_contract.quest_murder_sever_2.title=Лиманские дворняги
+quest_contract.quest_murder_sever_20.title=Фантомная химера
+quest_contract.quest_murder_sever_4_premium.title=Дикие собаки
+quest_contract.quest_murder_sever_4.title=Лиманские вепри
+quest_contract.quest_murder_sever_6_premium.title=Кровососы Севера
+quest_contract.quest_murder_sever_7.title=Дикие собаки
+quest_contract.quest_murder_sever_8.title=Пси-собаки
+
+quest_contract.quest_unical_items_bar_18_premium.title=Лиманский воск
+quest_contract.quest_unical_items_sever_2.title=Лиманский воск
+
+pda.waypoint.we.abstract_camp_tushkan.title=Нора тушканов
+pda.waypoint.we.abstract_camp_dog.title=Логово собак
+pda.waypoint.we.abstract_camp_flesh.title=Лежанка плотей
+pda.waypoint.we.abstract_camp_krovosos.title=Гнездо кровососов
+pda.waypoint.we.abstract_camp_snork.title=Лежка снорков
+pda.waypoint.we.abstract_camp_krovosos_large.title=Логово кровососов
+
+pda.waypoint.we.abstract_camp_monolit.title=Отряд «Монолита»
+pda.waypoint.we.abstract_camp_monolit_large.title=База «Монолита»
+
+pda.waypoint.we.abstract_contamination_antenna.title=Антенна «Монолита»
+
+pda.waypoint.we.flex_node_electra.title=Скопление «Протоэлектр»
+
+pda.waypoint.we.flex_node_trampoline.title=Скопление «Протобатутов»
+pda.waypoint.we.flex_node_funnel.title=Скопление «Протоворонок»
+pda.waypoint.we.flex_node_carousel.title=Скопление «Протокаруселей»
+pda.waypoint.we.flex_node_kissel.title=Скопление «Протокиселей»
+pda.waypoint.we.flex_node_lighter.title=Скопление «Протожарок»
+
+pda.waypoint.we.limansk_chimera_boss.title=Логово Фантомной Химеры
+pda.waypoint.we.limansk_krovosos_boss.title=Логово Пси-кровососа
+
+pda.waypoint.we.ny24_boss_ice_snork.title=Ледяной снорк
+
+pda.waypoint.we.blizzard_evacuate_teleport.title=«Пузырь»
+pda.waypoint.we.sovhoz_camp_dog.title=Лежанка морозных собак
+pda.waypoint.we.sovhoz_camp_flesh.title=Лежанка морозных плотей
+
+pda.waypoint.we.sovhoz_camp_krovosos.title=Гнездо морозных кровососов
+pda.waypoint.we.sovhoz_camp_snork.title=Лежанка морозных снорков
+pda.waypoint.we.sovhoz_boss_pseudo.title=Морозный Гигант
+pda.waypoint.we.sovhoz_boss_chimera.title=Морозная Химера
+
+pda.waypoint.we.zaton_monolit_evacuation.title=Застава «Монолита»
+
+we.delivery.notification_text=Эй, не хочешь подзаработать? Отнеси одну штучку на Склады для меня, деньгами не обижу.
+
+we.antenna.notification_text=На локации активирована антенна «Монолита»
+we.abstract_camp_tushkan.status_title=Нора тушканов
+we.abstract_camp_dog.status_title=Логово собак
+we.abstract_camp_flesh.status_title=Лежанка плотей
+we.abstract_camp_krovosos.status_title=Гнездо кровососов
+we.abstract_camp_snork.status_title=Лежанка снорков
