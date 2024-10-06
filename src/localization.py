@@ -3,6 +3,8 @@ from functools import reduce
 from pathlib import Path
 from typing import TypeAlias
 
+from src.consts import BACKUP_SUFFIX
+
 
 Localization: TypeAlias = dict[str, str]
 
@@ -31,12 +33,20 @@ def update(localization: Localization, modded: Localization):
     return localization
 
 
+def restore(orig: Path, bck: Path):
+    orig.unlink(missing_ok=True)
+    bck.rename(orig)
+
+
+def backup_name(path: Path):
+    return path.with_name(f"{path.name}.{BACKUP_SUFFIX}")
+
+
 def backup(path: Path):
-    bck = path.with_name(f"{path.name}.bck")
+    bck = backup_name(path)
 
     if bck.exists():
-        path.unlink(missing_ok=True)
-        bck.rename(path)
+        restore(path, bck)
 
     shutil.copy2(path, bck)
 

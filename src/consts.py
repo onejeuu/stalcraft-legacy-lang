@@ -1,6 +1,8 @@
 from pathlib import Path
 
 
+BACKUP_SUFFIX = "bck"
+
 DATA = Path("data")
 
 

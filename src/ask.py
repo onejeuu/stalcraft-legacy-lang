@@ -39,3 +39,13 @@ def mod_options():
             ],
         },
     ).execute()
+
+
+def uninstall_mod():
+    return inquirer.select(  # type: ignore
+        message="Похоже мод уже установлен. Вы хотите удалить мод или продолжить установку?",
+        choices=[
+            Choice(False, name="Продолжить установку"),
+            Choice(True, name="Удалить модификацию"),
+        ],
+    ).execute()

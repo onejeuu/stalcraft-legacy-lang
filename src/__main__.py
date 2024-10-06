@@ -13,6 +13,10 @@ def define_path():
     return ask.enter_assets_path()
 
 
+def mod_is_installed(assets: Path):
+    return any([localization.backup_name(assets / lang.value).exists() for lang in LangPath])
+
+
 def apply(original: Path, options: list[ModOption], lang: LangPath):
     mods = utils.options_to_path(options, lang)
 
@@ -21,24 +25,35 @@ def apply(original: Path, options: list[ModOption], lang: LangPath):
     localization.save(original, updated)
 
 
-def install():
-    assets = define_path()
-
-    options = ask.mod_options()
-
+def install(assets: Path, options: list[ModOption]):
     for lang in LangPath:
         original = assets / lang.value
         localization.backup(original)
         apply(original, options, lang)
 
 
-def main():
-    try:
-        install()
+def uninstall(assets: Path):
+    for lang in LangPath:
+        orig = assets / lang.value
+        bck = localization.backup_name(orig)
+        localization.restore(orig, bck)
 
-    except (KeyboardInterrupt, SystemExit):
-        pass
+
+def main():
+    assets = define_path()
+
+    if mod_is_installed(assets) and ask.uninstall_mod():
+        uninstall(assets)
+        return
+
+    options = ask.mod_options()
+
+    install(assets, options)
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+
+    except (KeyboardInterrupt, SystemExit):
+        pass
