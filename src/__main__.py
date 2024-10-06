@@ -14,6 +14,9 @@ def install():
     path = define_path()
     print(path)
 
+    answer = ask.mod_options()
+    print(answer)
+
 
 def main():
     try:
