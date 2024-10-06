@@ -31,6 +31,8 @@ def mod_options():
         choices=[Choice(option, name=option.value, enabled=True) for option in ModOption],
         validate=EmptyInputValidator(),
         transformer=lambda result: ", ".join(result),
+        enabled_symbol="✅",
+        disabled_symbol="❌",
         keybindings={
             "toggle": [
                 {"key": "space"},
