@@ -20,9 +20,7 @@ def mod_is_installed(assets: Path):
 
 def apply(orig: Path, options: list[ModOption], lang: LangPath):
     mods = resources.options_to_path(options, lang)
-
     updated = localization.apply(path=orig, mods=mods)
-
     localization.save(orig, updated)
 
 
@@ -48,7 +46,6 @@ def main():
         return
 
     options = ask.mod_options()
-
     install(assets, options)
 
 

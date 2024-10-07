@@ -29,9 +29,6 @@ def save(output: Path, localization: Localization):
 
 def update(localization: Localization, modded: Localization):
     for key, new_value in modded.items():
-        if key not in localization:
-            raise Exception(f"key '{key}' not found in localization")
-
         localization[key] = new_value
     return localization
 
