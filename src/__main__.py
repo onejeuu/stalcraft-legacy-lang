@@ -6,9 +6,9 @@ from src.enums import LangPath, ModOption
 
 
 def define_path():
-    if GamePath.ASSETS.exists():
+    if GamePath.DEFAULT.exists():
         if ask.confirm_default_path():
-            return GamePath.ASSETS
+            return GamePath.DEFAULT
 
     return ask.enter_assets_path()
 

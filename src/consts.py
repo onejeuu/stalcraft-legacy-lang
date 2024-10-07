@@ -9,10 +9,7 @@ DATA = Path("data")
 class GamePath:
     APPDATA = Path.home() / "AppData" / "Roaming"
     STALCRAFT = APPDATA / "EXBO" / "runtime" / "stalcraft"
-    ASSETS = STALCRAFT / "modassets" / "assets"
-
-    # TODO: delete test value
-    ASSETS = Path("G:/SCASSETS.LANG")
+    DEFAULT = ASSETS = STALCRAFT / "modassets" / "assets"
 
 
 class RequiredPath:
