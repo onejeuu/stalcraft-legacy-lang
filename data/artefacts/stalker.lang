@@ -179,3 +179,11 @@ item.quest.small_configurator_ny24.description=Стационарное устр
 
 item.quest.big_configurator_ny24.description=Мощное стационарное устройство, предназначенное для конфигурации и насыщения области чистой энергией Ноосферы. Разработано таким образом, чтобы за единицу времени изменять и выпускать значительные объемы энергии, тем самым кодируя квантую информацию Пузыря, превращая его во временной коридор.
 
+world.modifier.ravent_level_electra_activity.name=Активность «Протоэлектр»
+world.modifier.ravent_level_electra_activity.description=На арене появляются «Протоэлектры»
+world.modifier.ravent_level_lighter_activity.name=Активность «Протожарок»
+world.modifier.ravent_level_lighter_activity.description=На арене появляются «Протожарки»
+world.modifier.ravent_level_funnel_activity.name=Активность «Протоворонок»
+world.modifier.ravent_level_funnel_activity.description=На арене появляются «Протоворонки»
+
+world.modifier.ravent_mobs_mutant_segmentation.description=При смерти из мутантов появляются тушканы
