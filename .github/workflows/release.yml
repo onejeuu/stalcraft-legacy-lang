@@ -1,0 +1,50 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Get Release Date
+        run: |
+          $releaseDate = Get-Date -Format "dd.MM.yyyy HH:mm:ss"
+          echo "RELEASE_DATE=$releaseDate" >> $env:GITHUB_ENV
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run build script
+        run: |
+          python build.py
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          body: |
+            Скомпилированный установщик мода для Windows
+
+            Версия: ${{ github.ref_name }}
+            Дата: ${{ env.RELEASE_DATE }}
+          files: |
+            dist/stalcraft-legacy-lang.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
