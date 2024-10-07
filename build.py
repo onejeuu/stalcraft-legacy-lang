@@ -5,9 +5,9 @@ import PyInstaller.__main__
 from src.consts import DATADIR
 
 
-NAME = "sc-legacy-lang"
+NAME = "stalcraft-legacy-lang"
 
-ROOT = Path(__file__).parent.parent.absolute()
+ROOT = Path(__file__).parent.absolute()
 
 ENTRYPOINT = str(ROOT / "src" / "__main__.py")
 ICON = str(ROOT / "assets" / "icon.ico")
