@@ -1,6 +1,7 @@
+import os
 from pathlib import Path
 
-from src import ask, localization, utils
+from src import ask, localization, resources
 from src.consts import GamePath
 from src.enums import LangPath, ModOption
 
@@ -18,7 +19,7 @@ def mod_is_installed(assets: Path):
 
 
 def apply(orig: Path, options: list[ModOption], lang: LangPath):
-    mods = utils.options_to_path(options, lang)
+    mods = resources.options_to_path(options, lang)
 
     updated = localization.apply(path=orig, mods=mods)
 
@@ -51,9 +52,20 @@ def main():
     install(assets, options)
 
 
+def change_encoding():
+    os.system("chcp 65001 > NUL")
+
+
+def cli():
+    change_encoding()
+    main()
+    print("\nГотово")
+    input("Нажмите Enter для закрытия...")
+
+
 if __name__ == "__main__":
     try:
-        main()
+        cli()
 
     except (KeyboardInterrupt, SystemExit):
         pass

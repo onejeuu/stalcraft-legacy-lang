@@ -9,7 +9,8 @@ from src.enums import ModOption
 
 def confirm_default_path():
     return inquirer.select(  # type: ignore
-        message=f"Найден стандартный путь до ассетов игры: {GamePath.ASSETS.as_posix()}. Всё верно?",
+        message=f"Найден стандартный путь до ассетов игры\n{GamePath.ASSETS.as_posix()}\nВсё верно?",
+        pointer=">",
         choices=[
             Choice(True, name="Да, продолжить"),
             Choice(False, name="Нет, изменить"),
@@ -31,6 +32,7 @@ def mod_options():
         choices=[Choice(option, name=option.value, enabled=True) for option in ModOption],
         validate=EmptyInputValidator(),
         transformer=lambda result: ", ".join(result),
+        pointer=">",
         enabled_symbol="✅",
         disabled_symbol="❌",
         keybindings={
@@ -46,6 +48,7 @@ def mod_options():
 def uninstall_mod():
     return inquirer.select(  # type: ignore
         message="Похоже мод уже установлен. Вы хотите удалить мод или продолжить установку?",
+        pointer=">",
         choices=[
             Choice(False, name="Продолжить установку"),
             Choice(True, name="Удалить модификацию"),
