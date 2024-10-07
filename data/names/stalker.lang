@@ -565,3 +565,8 @@ general.achievement.id.yanov_explored.desc=Посетить окрестност
 general.achievement.id.zaton_explored.desc=Посетить Затон
 general.achievement.id.zubastiki.desc=Убить 100 тушканов
 
+go.armsklad_node.name=Аномальный разлом (Армейские склады)
+go.limansk_node.name=Аномальный разлом (Лиманск)
+
+go.electrokapkan_living.lore=При размещении создает аналог «Электры», наносящий урон по целям в области.
+go.misc.extractor_limansk_tech.name=Аномальная установка Лиманска (защита)
