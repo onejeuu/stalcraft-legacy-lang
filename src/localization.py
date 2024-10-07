@@ -29,6 +29,9 @@ def save(output: Path, localization: Localization):
 
 def update(localization: Localization, modded: Localization):
     for key, new_value in modded.items():
+        if key not in localization:
+            raise Exception(f"key '{key}' not found in localization")
+
         localization[key] = new_value
     return localization
 
@@ -42,13 +45,9 @@ def backup_name(path: Path):
     return path.with_name(f"{path.name}.{BACKUP_SUFFIX}")
 
 
-def backup(path: Path):
-    bck = backup_name(path)
-
-    if bck.exists():
-        restore(path, bck)
-
-    shutil.copy2(path, bck)
+def backup(orig: Path):
+    bck = backup_name(orig)
+    shutil.copy2(orig, bck)
 
 
 def apply(path: Path, mods: list[Path]):

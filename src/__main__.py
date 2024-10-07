@@ -28,6 +28,7 @@ def apply(orig: Path, options: list[ModOption], lang: LangPath):
 def install(assets: Path, options: list[ModOption]):
     for lang in LangPath:
         orig = assets / lang.value
+        localization.backup(orig)
         apply(orig, options, lang)
 
 

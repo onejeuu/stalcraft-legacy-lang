@@ -4,9 +4,9 @@ from pathlib import Path
 
 class ModOption(StrEnum):
     FRACTIONS = "Фракции"
-    ARTEFACTS = "Артефакты"
-    ANOMALIES = "Аномалии"
-    NAMES = "Наименования (Локации, Мутанты, Прочее)"
+    ITEMS = "Снаряжение"
+    ARTEFACTS = "Артефакты и Аномалии"
+    NAMES = "Локации и Мутанты"
 
 
 class LangPath(Enum):
