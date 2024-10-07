@@ -1,3 +1,28 @@
+location.agroprom.name=Агропром
+location.armsklad.name=Армейские склады
+location.atp.name=АТП
+location.bar_save.name=Бар завода «Росток»
+location.bar_sever.name=Бар «100 Рентген»
+location.bar.name=Завод «Росток»
+location.kordon.name=Кордон
+location.limansk.name=Лиманск
+location.svalka.name=Свалка
+location.td.name=Темная долина
+location.zaton.name=Затон
+
+location.battlefield_kordon.name=Бой за Кордон
+location.battlefield_svalka.name=Бой за Свалку
+
+location.dungeon_chimera.name=Завод «Росток»
+location.dungeon_domiki.name=Кордон
+location.dungeon_domiki2.name=Кордон
+location.dungeon_kmpt_agro.name=Агропром
+location.dungeon_main_outworld_6.name=Армейские склады
+location.dungeon_miar1.name=Лиманск
+location.dungeon_nasip.name=Кордон
+location.dungeon_perestrelka.name=Завод «Росток»
+location.dungeon_wrwf_agro.name=Агропром
+
 savepoints.id.savepoint_garage.name=АТП
 
 region.stalkers_kordon.name=АТП
@@ -436,8 +461,6 @@ stalker.navigation.transition.yantar-agroprom.name=Агропром
 stalker.navigation.transition.yantar-bar.name=Завод «Росток»
 stalker.navigation.transition.yantar-svalka.name=Свалка
 
-location.atp.name=АТП
-
 loadscreens.location.agroprom.desc=Область на западе Зоны, на которой находится бывший НИИ «Агропром». Местность представляет особую опасность благодаря большому количеству аномальных полей, очагов повышенной радиации и сильной лесистости. Бывший бункер «Фотон-1» связан с гигантской термической аномалией подземным туннелем.
 loadscreens.location.agroprom.feature.0=На севере находится выход на термическую архианомалию «Скелет Адама» с большим количеством «Жарок». Не стоит забывать, что она выведет прямо в Яму.
 loadscreens.location.agroprom.feature.1=Помимо основного перехода по дороге на Свалку имеется еще один, подземный, немного южнее дороги.
@@ -541,3 +564,4 @@ general.achievement.id.vestibular_appar.desc=Выжить после попад�
 general.achievement.id.yanov_explored.desc=Посетить окрестности Янова
 general.achievement.id.zaton_explored.desc=Посетить Затон
 general.achievement.id.zubastiki.desc=Убить 100 тушканов
+

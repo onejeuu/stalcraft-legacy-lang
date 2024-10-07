@@ -1,5 +1,18 @@
+loadscreens.location.base_duty.name=База «Долга»
+loadscreens.location.base_freedom.name=База «Свободы»
+
+location.base_duty.name=База «Долга»
+location.base_freedom.name=База «Свободы»
+
 savepoints.id.savepoint_duty.name=База «Долга»
 savepoints.id.savepoint_freedom.name=База «Свободы»
+
+stalker.navigation.transition.dungeon_twins_boss_arena-base_duty.name=База «Долга»
+stalker.navigation.transition.dungeon_twins_boss_arena-base_freedom.name=База «Свободы»
+stalker.navigation.transition.north_barrier-base_duty.name=База «Долга»
+stalker.navigation.transition.north_institute-base_freedom.name=База «Свободы»
+stalker.navigation.transition.outpost_duty-base_duty.name=База «Долга»
+stalker.navigation.transition.outpost_freedom-base_freedom.name=База «Свободы»
 
 settlement.id.duty.title=База «Долга»
 settlement.id.duty.default_desc=Совсем еще зеленых новичков в «Долге» зовут рекрутами. По мнению командования, этим бойцам еще только предстоит пройти «боевое крещение». Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
@@ -84,16 +97,6 @@ we.north_faction_camp_freedom.status_title=Застава «Свободы»
 map.teleport.id.bar-duty.name=к базе «Долга»
 map.teleport.id.bar-freedom.name=к базе «Свободы»
 
-stalker.navigation.transition.dungeon_twins_boss_arena-base_duty.name=База «Долга»
-stalker.navigation.transition.dungeon_twins_boss_arena-base_freedom.name=База «Свободы»
-stalker.navigation.transition.north_barrier-base_duty.name=База «Долга»
-stalker.navigation.transition.north_institute-base_freedom.name=База «Свободы»
-stalker.navigation.transition.outpost_duty-base_duty.name=База «Долга»
-stalker.navigation.transition.outpost_freedom-base_freedom.name=База «Свободы»
-
-loadscreens.location.base_duty.name=База «Долга»
-loadscreens.location.base_freedom.name=База «Свободы»
-
 loadscreens.location.north_barrier.desc=Заброшенные военные базы, склады и радиолокационные станции - так выглядит Барьер, область, в которой окопались силы «Долга». В этой области хватает опасных мутантов. Несмотря на все старания «Долга», искоренить их присутствие окончательно не выходит.
 loadscreens.location.north_barrier.feature.0=«Долг» хорошо окопался на этой территории, представителям других группировок здесь будет несладко.
 loadscreens.location.north_inflow.desc=Область между Барьером и Храмовой топью, поле боя между силами «Долг» и «Завета». Приток был небольшим, но оживленным городком, зависящим от речного судоходства. Само название этого населенного пункта отражало смысл его существования. Теперь ни о каком судоходстве речи, конечно, не идет, а за контроль над территорией Притока вовсю воюют северные группировки.
@@ -117,3 +120,16 @@ stalker.alliance.duty.quest_join=Для продолжения задания в
 stalker.alliance.duty.quest_leave=Для продолжения задания покиньте «Долг»
 stalker.alliance.freedom.quest_join=Для продолжения задания вступите в «Свободу»
 stalker.alliance.freedom.quest_leave=Для продолжения задания покиньте «Свободу»
+
+freedom.protected_areas.alert.notification.2=Эй! Если у «Свободы» порядки своевольные – эт не значит, что у нашей базы можно своевольничать левым типам! \nВали отсюда.
+freedom.protected_areas.alert.notification.3=Сталкеры «Свободы» - к базе приближается враг. \nОгонь на поражение!
+freedom.protected_areas.alert.notification.4=«Свобода» свои границы хорошо стережет. \nБеги отсюда, или завалим!
+
+duty.protected_areas.alert.notification.1=Нарушен периметр базы «Долга». \nОхрана: быть начеку, приготовьтесь вести огонь на поражение!
+duty.protected_areas.alert.notification.2=Нарушитель: ты приближаешься к базе «Долга». \nУходи, иначе расстреляем, как паршивого мутанта от нашей базы!
+duty.protected_areas.alert.notification.3=Чужак! Ты на территории «Долга». \nЛучше вали, если смерти не ищешь!
+duty.protected_areas.alert.notification.4=Предупреждение всем нарушителям: охрана базы «Долга» уполномочена вести огонь на поражение.
+
+stalker.protected_areas.north_barrier_duty.owner=«Долг»
+stalker.protected_areas.north_institute_freedom.owner=«Свобода»
+
