@@ -22,7 +22,7 @@ def load(path: Path) -> Localization:
 
 
 def save(output: Path, localization: Localization):
-    with open(output.with_name(f"{output.stem}.legacy.lang"), "w", encoding="utf-8") as f:
+    with open(output, "w", encoding="utf-8") as f:
         for key, value in localization.items():
             f.write(f"{key}={value}\n")
 
