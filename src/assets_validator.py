@@ -47,7 +47,7 @@ class AssetsPathValidator(Validator):
 
         if not finded.exists():
             raise ValidationError(
-                message="Указанный путь не содержит путь до ассетов игры.",
+                message="Указанный путь не содержит ассетов игры",
                 cursor_position=document.cursor_position,
             )
 

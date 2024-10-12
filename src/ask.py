@@ -22,7 +22,6 @@ def enter_assets_path():
     return inquirer.filepath(  # type: ignore
         message="Введите путь до папки ассетов игры:",
         validate=AssetsPathValidator(),
-        only_directories=True,
     ).execute()
 
 

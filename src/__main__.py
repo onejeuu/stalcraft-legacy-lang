@@ -15,7 +15,8 @@ def define_path():
 
 
 def mod_is_installed(assets: Path):
-    return any([localization.backup_name(assets / lang.value).exists() for lang in LangPath])
+    langs = [localization.backup_name(assets / lang.value) for lang in LangPath]
+    return any([lang.exists() for lang in langs])
 
 
 def apply(orig: Path, options: list[ModOption], lang: LangPath):
@@ -35,7 +36,8 @@ def uninstall(assets: Path):
     for lang in LangPath:
         orig = assets / lang.value
         bck = localization.backup_name(orig)
-        localization.restore(orig, bck)
+        if bck.exists():
+            localization.restore(orig, bck)
 
 
 def main():

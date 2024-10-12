@@ -1,9 +1,11 @@
 from pathlib import Path
 
 
+DATADIR = "data"
+
 BACKUP_SUFFIX = "bck"
 
-DATADIR = "data"
+LANG = "lang/ru.lang"
 
 
 class GamePath:
@@ -13,5 +15,5 @@ class GamePath:
 
 
 class RequiredPath:
-    LAUNCHER = Path("runtime/stalcraft/modassets/assets")
     STEAM = Path("modassets/assets")
+    LAUNCHER = Path("runtime/stalcraft/modassets/assets")
