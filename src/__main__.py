@@ -31,7 +31,11 @@ def install(assets: Path, options: list[ModOption]):
     """Установка модификации"""
     for lang in LangPath:
         orig = assets / lang.value
-        localization.backup(orig)
+
+        backup = localization.backup_filename(orig)
+        if not backup.exists():
+            localization.backup(orig)
+
         apply(orig, options, lang)
 
 
@@ -39,9 +43,10 @@ def uninstall(assets: Path):
     """Удаление модификации"""
     for lang in LangPath:
         orig = assets / lang.value
-        bck = localization.backup_filename(orig)
-        if bck.exists():
-            localization.restore(orig, bck)
+
+        backup = localization.backup_filename(orig)
+        if backup.exists():
+            localization.restore(orig, backup)
 
 
 def main():
