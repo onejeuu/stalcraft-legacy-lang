@@ -3,9 +3,12 @@ from pathlib import Path
 
 DATADIR = "data"
 
-BACKUP_SUFFIX = "bck"
+STEAM_CATALOG = "steamapps"
 
-LANG = "lang/ru.lang"
+
+class LangFile:
+    BACKUP_SUFFIX = "bck"
+    PATH = "lang/ru.lang"
 
 
 class GamePath:

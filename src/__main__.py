@@ -7,25 +7,28 @@ from src.enums import LangPath, ModOption
 
 
 def define_path():
-    if GamePath.DEFAULT.exists():
-        if ask.confirm_default_path():
-            return GamePath.DEFAULT
+    """Определить путь до ассетов игры"""
+    if GamePath.DEFAULT.exists() and ask.confirm_default_path():
+        return GamePath.DEFAULT
 
     return ask.enter_assets_path()
 
 
 def mod_is_installed(assets: Path):
-    langs = [localization.backup_name(assets / lang.value) for lang in LangPath]
+    """Проверка на наличие backup файлов"""
+    langs = [localization.backup_filename(assets / lang.value) for lang in LangPath]
     return any([lang.exists() for lang in langs])
 
 
 def apply(orig: Path, options: list[ModOption], lang: LangPath):
+    """Применение модификации на локализацию"""
     mods = resources.options_to_path(options, lang)
     updated = localization.apply(path=orig, mods=mods)
     localization.save(orig, updated)
 
 
 def install(assets: Path, options: list[ModOption]):
+    """Установка модификации"""
     for lang in LangPath:
         orig = assets / lang.value
         localization.backup(orig)
@@ -33,9 +36,10 @@ def install(assets: Path, options: list[ModOption]):
 
 
 def uninstall(assets: Path):
+    """Удаление модификации"""
     for lang in LangPath:
         orig = assets / lang.value
-        bck = localization.backup_name(orig)
+        bck = localization.backup_filename(orig)
         if bck.exists():
             localization.restore(orig, bck)
 

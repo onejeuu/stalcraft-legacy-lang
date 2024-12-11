@@ -1,16 +1,16 @@
 from enum import Enum, StrEnum
 from pathlib import Path
 
-from src.consts import LANG
+from src.consts import LangFile
 
 
 class ModOption(StrEnum):
     FRACTIONS = "Фракции"
     ITEMS = "Снаряжение"
-    ARTEFACTS = "Артефакты и Аномалии"
-    NAMES = "Локации и Мутанты"
+    ARTEFACTS = "Артефакты"
+    NAMES = "Лор"
 
 
 class LangPath(Enum):
-    GLOOMYCORE = Path("gloomycore") / LANG
-    STALKER = Path("stalker") / LANG
+    GLOOMYCORE = Path("gloomycore") / LangFile.PATH
+    STALKER = Path("stalker") / LangFile.PATH
