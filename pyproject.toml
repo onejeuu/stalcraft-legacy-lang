@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "stalcraft-legacy-lang-mod"
-version = "1.0.4"
+version = "1.0.5"
 description = "Mod for STALCRAFT returning original localization before «Day X» update"
 authors = ["onejeuu <mail@66rk.ru>"]
 license = "MIT"

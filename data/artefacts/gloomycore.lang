@@ -1,3 +1,22 @@
+death.attack.blackhole.subject={entityName} затянуло в «Воронку»
+death.attack.carousel.subject={entityName} разорвало «Каруселью»
+death.attack.circus.subject={entityName} погиб от «Цирка»
+death.attack.electra.subject={entityName} убило «Электрой»
+death.attack.kissel.subject={entityName} растворился в «Киселе»
+death.attack.lighter.subject={entityName} сгорел в «Жарке»
+death.attack.puh.subject={entityName} погиб от «Пуха»
+death.attack.steam.subject={entityName} сварился в «Паре»
+death.attack.trampoline.subject={entityName} разорвало «Трамплином»
+
+general.stats.stat.car-ano-dea=Смертей от «Карусели»
+general.stats.stat.cir-ano-dea=Смертей от «Цирка»
+general.stats.stat.ele-ano-dea=Смертей от «Электры»
+general.stats.stat.fun-ano-dea=Смертей от «Воронки»
+general.stats.stat.kis-ano-dea=Смертей от «Киселя»
+general.stats.stat.lig-ano-dea=Смертей от «Жарки»
+general.stats.stat.ste-ano-dea=Смертей от «Пара»
+general.stats.stat.tra-ano-dea=Смертей от «Трамплина»
+
 go.carousel.name=Карусель
 go.circus.name=Цирк
 go.electra.name=Электра
@@ -15,22 +34,3 @@ tile.lighter.name=«Жарка»
 tile.steam.name=«Пар»
 tile.teleport_bubble.name=Пространственный пузырь
 tile.tramp.name=«Трамплин»
-
-general.stats.stat.fun-ano-dea=Смертей от «Воронки»
-general.stats.stat.car-ano-dea=Смертей от «Карусели»
-general.stats.stat.kis-ano-dea=Смертей от «Киселя»
-general.stats.stat.tra-ano-dea=Смертей от «Трамплина»
-general.stats.stat.lig-ano-dea=Смертей от «Жарки»
-general.stats.stat.ste-ano-dea=Смертей от «Пара»
-general.stats.stat.ele-ano-dea=Смертей от «Электры»
-general.stats.stat.cir-ano-dea=Смертей от «Цирка»
-
-death.attack.electra.subject={entityName} убило «Электрой»
-death.attack.carousel.subject={entityName} разорвало «Каруселью»
-death.attack.kissel.subject={entityName} растворился в «Киселе»
-death.attack.steam.subject={entityName} сварился в «Паре»
-death.attack.trampoline.subject={entityName} разорвало «Трамплином»
-death.attack.blackhole.subject={entityName} затянуло в «Воронку»
-death.attack.lighter.subject={entityName} сгорел в «Жарке»
-death.attack.circus.subject={entityName} погиб от «Цирка»
-death.attack.puh.subject={entityName} погиб от «Пуха»

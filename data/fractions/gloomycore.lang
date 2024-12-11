@@ -1,16 +1,14 @@
-stalker.hud.zone_entering.ownership.settlement.duty=База «Долга»
-stalker.hud.zone_entering.ownership.settlement.freedom=База «Свободы»
-
-stalker.hud.zone_entering.ownership.camp.duty=Лагерь «Долга»
-stalker.hud.zone_entering.ownership.camp.freedom=Лагерь «Свободы»
+stalker.alliance.member.duty=Боец «Долга»
+stalker.alliance.member.freedom=Боец «Свободы»
+stalker.alliance.name.duty=Долг
+stalker.alliance.name.freedom=Свобода
 
 stalker.gui.death_screen.faction.duty.name=«Долг»
 stalker.gui.death_screen.faction.freedom.name=«Свобода»
 
-stalker.alliance.name.duty=Долг
-stalker.alliance.member.duty=Боец «Долга»
-
-stalker.alliance.name.freedom=Свобода
-stalker.alliance.member.freedom=Боец «Свободы»
-
 stalker.gui.pda.clan_info.factions.label.info=Присоединяйтесь к фракциям для кооперации с\nдругими игроками и участия в §7захвате §7баз§r на Севере!\n\nСталкеры могут вступить в ряды «Свободы» или «Долга».\nБандитам доступно вступление в Наемники или «Завет».\n\nЧтобы вступить в одну из этих фракций,\nвам сначала придется заслужить уважение среди\nобитателей Бара и пройти отбор у вербовщиков фракции.
+
+stalker.hud.zone_entering.ownership.camp.duty=Лагерь «Долга»
+stalker.hud.zone_entering.ownership.camp.freedom=Лагерь «Свободы»
+stalker.hud.zone_entering.ownership.settlement.duty=База «Долга»
+stalker.hud.zone_entering.ownership.settlement.freedom=База «Свободы»

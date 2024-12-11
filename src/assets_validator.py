@@ -1,31 +1,48 @@
+from copy import copy
 from pathlib import Path
 from typing import Any
 
 from prompt_toolkit.validation import ValidationError, Validator
 
 from src.consts import STEAM_CATALOG, RequiredPath
+from src.enums import LangPath
+
+
+def assets_contains_langs(path: Path):
+    return all([Path(path / lang.value).exists() for lang in LangPath])
+
+
+def validate_assets(path: Path, required: Path):
+    # ? Если указанный путь содержит полные каталоги до lang файлов
+    if assets_contains_langs(path):
+        return path
+
+    # ? Если путь оканчивается на полный required
+    if path.match(f"*{required}"):
+        return path
+
+    # ? Проверка на частичное совпадение required
+    candidate = copy(required)
+
+    while candidate.parts:
+        if path.match(f"*{candidate}"):
+            # ? Возвращаем полный путь до ассетов
+            return path / required.relative_to(candidate)
+        else:
+            # ? Последовательно уменьшаем потенциальный путь
+            candidate = candidate.parent
+
+    return path / required
+
+
+def find_assets(path: Path):
+    # Определяем точность RequiredPath по наличию стима в указанном пути
+    required = RequiredPath.STEAM if STEAM_CATALOG in path.parts else RequiredPath.LAUNCHER
+
+    return validate_assets(path=path, required=required)
 
 
 class AssetsPathValidator(Validator):
-    def _find_assets(self, path: Path):
-        # Определяем точность RequiredPath по наличию стима в указанном пути
-        required = RequiredPath.STEAM if STEAM_CATALOG in path.parts else RequiredPath.LAUNCHER
-
-        return self._validate_assets(path=path, required=required)
-
-    def _validate_assets(self, path: Path, required: Path):
-        parts = list(path.parts)
-
-        # Очищаем введеный путь от частей required
-        for target in required.parts:
-            if parts and parts[-1] == target:
-                parts.pop()
-            else:
-                break
-
-        # Возвращаем полный путь до ассетов
-        return Path(*parts) / required
-
     def validate(self, document: Any) -> None:
         path = Path(document.text).expanduser()
 
@@ -44,9 +61,9 @@ class AssetsPathValidator(Validator):
             )
 
         # Проверяем, находится ли в указанном пути ассеты игры
-        finded = self._find_assets(path)
+        finded = find_assets(path)
 
-        if not finded.exists():
+        if not finded or not finded.exists() or not assets_contains_langs(finded):
             raise ValidationError(
                 message="Указанный путь не содержит ассетов игры",
                 cursor_position=document.cursor_position,

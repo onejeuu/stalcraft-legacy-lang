@@ -1,54 +1,9 @@
-loadscreens.location.base_duty.name=База «Долга»
-loadscreens.location.base_freedom.name=База «Свободы»
-
-location.base_duty.name=База «Долга»
-location.base_freedom.name=База «Свободы»
-
-location.dungeon_duty_storage=Склад «Долга»
-
-location.outpost_duty.name=Аванпост «Долга»
-location.outpost_freedom.name=Аванпост «Свободы»
-
-savepoints.id.savepoint_duty.name=База «Долга»
-savepoints.id.savepoint_freedom.name=База «Свободы»
-
-stalker.navigation.transition.dungeon_twins_boss_arena-base_duty.name=База «Долга»
-stalker.navigation.transition.dungeon_twins_boss_arena-base_freedom.name=База «Свободы»
-stalker.navigation.transition.north_barrier-base_duty.name=База «Долга»
-stalker.navigation.transition.north_institute-base_freedom.name=База «Свободы»
-stalker.navigation.transition.outpost_duty-base_duty.name=База «Долга»
-stalker.navigation.transition.outpost_freedom-base_freedom.name=База «Свободы»
-
-settlement.id.duty.title=База «Долга»
-settlement.id.duty.default_desc=Совсем еще зеленых новичков в «Долге» зовут рекрутами. По мнению командования, этим бойцам еще только предстоит пройти «боевое крещение». Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
-settlement.id.duty.level.2.desc=Бойцы - это костяк «Долга». На их плечах лежит непростая задача по защите цивилизованного мира от заразы Зоны. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
-settlement.id.duty.level.5.desc=Ваш боевой опыт не вызывает сомнений. Командование «Долга» полагается на вас, когда речь заходит о самых сложных операциях. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
-settlement.id.duty.level.6.desc=Заработав в «Долге» звание майора, вы получили непререкаемый авторитет и серьезное влияние. С вашим словом теперь считаются все. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
-settlement.id.duty.level.7.desc=Немногие бойцы группировки «Долг» доживали до получения генеральских погон, и вы теперь - один из них. Будущее «Долга» в ваших руках.
-
-settlement.id.freedom.title=База «Свободы»
-settlement.id.freedom.default_desc=Всех, кто не состоит в их группировке, свободовцы считают пленниками глупых условностей и ограничений. Коль скоро вы в рядах «Свободы», вас зовут «освобожденным»! Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
-settlement.id.freedom.level.3.desc=Готовность ввязаться в самую безумную авантюру ради познания Зоны (и извлечения выгоды из данного познания) является частью философии ветеранов «Свободы». Теперь вы тоже кое-что в этом понимаете. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
-settlement.id.freedom.level.4.desc=Анархия - мать порядка! А кто будет с этим утверждением спорить, с тем разговор короткий. Вы зазубрили эту простую истину и теперь в «Свободе» вас величают «анархистом». Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
-settlement.id.freedom.level.5.desc=Свободовцы из боевого крыла добившиеся такой репутации уже не раз проявляли себя в помощи ученым. Вы заслужили уважение среди ветеранов «Свободы» и теперь вас считают одним из тех, кто сам в какой-то мере познает Зону. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
-settlement.id.freedom.level.6.desc=Недовольные угнетением со стороны организаций, стремящихся подмять Зону под себя, разжигают пламя революции и пользуются в «Свободе» очень серьезным уважением. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
-settlement.id.freedom.level.7.desc=Пока одни безумцы поклялись защищать мир от Зоны, вы поклялись защитить Зону от всего мира, жаждущего наложить лапу на ее богатства. Для свободовцев вы стали одной из легенд, Хранителем Зоны.
-
-personal_storage.availability.settlement.alliance_stalkers=Требуемая репутация:\nБаза «Долга» - Генерал (7)\nБаза «Свободы» - Хранитель Зоны (7)
-
 cnps.availability.desc.barter.trader_sever_duty.duty_safezone_2=База «Долга» - Боец (2)
 cnps.availability.desc.barter.trader_sever_duty.duty_safezone_3=База «Долга» - Старшина (3)
 cnps.availability.desc.barter.trader_sever_duty.duty_safezone_4=База «Долга» - Младший Лейтенант (4)
 cnps.availability.desc.barter.trader_sever_duty.duty_safezone_5=База «Долга» - Капитан (5)
 cnps.availability.desc.barter.trader_sever_duty.duty_safezone_6=База «Долга» - Майор (6)
 cnps.availability.desc.barter.trader_sever_duty.duty_safezone_7=База «Долга» - Генерал (7)
-
-cnps.availability.desc.trader.supplier_duty.safezone_2=База «Долга» - Боец (2)
-cnps.availability.desc.trader.supplier_duty.safezone_3=База «Долга» - Старшина (3)
-cnps.availability.desc.trader.supplier_duty.safezone_4=База «Долга» - Младший Лейтенант (4)
-cnps.availability.desc.trader.supplier_duty.safezone_5=База «Долга» - Капитан (5)
-cnps.availability.desc.trader.supplier_duty.safezone_6=База «Долга» - Майор (6)
-cnps.availability.desc.trader.supplier_duty.safezone_7=База «Долга» - Генерал (7)
 
 cnps.availability.desc.barter.trader_sever_freedom.freedom_safezone_2=База «Свободы» - Юный бунтарь (2)
 cnps.availability.desc.barter.trader_sever_freedom.freedom_safezone_3=База «Свободы» - Авантюрист (3)
@@ -57,6 +12,16 @@ cnps.availability.desc.barter.trader_sever_freedom.freedom_safezone_5=База �
 cnps.availability.desc.barter.trader_sever_freedom.freedom_safezone_6=База «Свободы» - Революционер (6)
 cnps.availability.desc.barter.trader_sever_freedom.freedom_safezone_7=База «Свободы» - Хранитель Зоны (7)
 
+cnps.availability.desc.trader.clanmaster.clan_duty=Необходимо состоять в подразделении «Долга» и иметь уровень репутации на Базе «Долга» - Генерал (7)
+cnps.availability.desc.trader.clanmaster.clan_freedom=Необходимо состоять в подразделении «Свободы» и иметь уровень репутации на Базе «Свободы» - Хранитель Зоны (7)
+
+cnps.availability.desc.trader.supplier_duty.safezone_2=База «Долга» - Боец (2)
+cnps.availability.desc.trader.supplier_duty.safezone_3=База «Долга» - Старшина (3)
+cnps.availability.desc.trader.supplier_duty.safezone_4=База «Долга» - Младший Лейтенант (4)
+cnps.availability.desc.trader.supplier_duty.safezone_5=База «Долга» - Капитан (5)
+cnps.availability.desc.trader.supplier_duty.safezone_6=База «Долга» - Майор (6)
+cnps.availability.desc.trader.supplier_duty.safezone_7=База «Долга» - Генерал (7)
+
 cnps.availability.desc.trader.supplier_freedom.safezone_2=База «Свободы» - Юный бунтарь (2)
 cnps.availability.desc.trader.supplier_freedom.safezone_3=База «Свободы» - Авантюрист (3)
 cnps.availability.desc.trader.supplier_freedom.safezone_4=База «Свободы» - Анархист (4)
@@ -64,136 +29,67 @@ cnps.availability.desc.trader.supplier_freedom.safezone_5=База «Свобо�
 cnps.availability.desc.trader.supplier_freedom.safezone_6=База «Свободы» - Революционер (6)
 cnps.availability.desc.trader.supplier_freedom.safezone_7=База «Свободы» - Хранитель Зоны (7)
 
-cnps.availability.desc.trader.clanmaster.clan_duty=Необходимо состоять в подразделении «Долга» и иметь уровень репутации на Базе «Долга» - Генерал (7)
-cnps.availability.desc.trader.clanmaster.clan_freedom=Необходимо состоять в подразделении «Свободы» и иметь уровень репутации на Базе «Свободы» - Хранитель Зоны (7)
-
-cnps.faction.svoboda.name=«Свобода»
 cnps.faction.dolg.name=«Долг»
-
 cnps.faction.settlement_duty.name=«Долговец»
+
 cnps.faction.settlement_freedom.name=«Свободовец»
-
-pda.waypoint.home_outpost.duty=Штаб «Долга»
-pda.waypoint.home_outpost.freedom=Штаб «Свободы»
-
-pda.waypoint.we.abstract_camp_duty.title=Стоянка «Долга»
-pda.waypoint.we.abstract_camp_freedom.title=Стоянка «Свободы»
-pda.waypoint.we.north_faction_camp_duty.title=Застава «Долга»
-pda.waypoint.we.north_faction_camp_freedom.title=Застава «Свободы»
-pda.waypoint.we.outpost.duty=Аванпост «Долга»
-pda.waypoint.we.outpost.freedom=Аванпост «Свободы»
-
-we.abstract_camp_duty.status_title=Стоянка «Долга»
-we.abstract_camp_freedom.status_title=Стоянка «Свободы»
-
-we.abstract_rescue_duty.failure_text=Бойцы «Долга» погибли!
-we.abstract_rescue_duty.goal=Не дать бойцам «Долга» погибнуть
-we.abstract_rescue_duty.success_text=Бойцы «Долга» выжили и предлагают награду
-we.abstract_rescue_duty.task_text=Помочь бойцам «Долга»\nБойцы «Долга» {health}
-
-we.abstract_rescue_freedom.failure_text=Бойцы «Свободы» погибли!
-we.abstract_rescue_freedom.goal=Не дать бойцам «Свободы» погибнуть
-we.abstract_rescue_freedom.success_text=Бойцы «Свободы» выжили и предлагают награду
-we.abstract_rescue_freedom.task_text=Помочь бойцам «Свободы»\nБойцы «Свободы» {health}
-
-we.north_faction_camp_duty.status_title=Застава «Долга»
-we.north_faction_camp_freedom.status_title=Застава «Свободы»
-
-map.teleport.id.bar-duty.name=к базе «Долга»
-map.teleport.id.bar-freedom.name=к базе «Свободы»
-
-loadscreens.location.north_barrier.desc=Заброшенные военные базы, склады и радиолокационные станции - так выглядит Барьер, область, в которой окопались силы «Долга». В этой области хватает опасных мутантов. Несмотря на все старания «Долга», искоренить их присутствие окончательно не выходит.
-loadscreens.location.north_barrier.feature.0=«Долг» хорошо окопался на этой территории, представителям других группировок здесь будет несладко.
-loadscreens.location.north_inflow.desc=Область между Барьером и Храмовой топью, поле боя между силами «Долг» и «Завета». Приток был небольшим, но оживленным городком, зависящим от речного судоходства. Само название этого населенного пункта отражало смысл его существования. Теперь ни о каком судоходстве речи, конечно, не идет, а за контроль над территорией Притока вовсю воюют северные группировки.
-
-loadscreens.location.north_inflow.name=Приток
-loadscreens.location.north_institute.desc=Эта область стала базой для группировки «Свобода». Основные силы «Свободы» расположились в здании бывшего Института опытной агрономии и его окрестностях. По территории Института проходит пересохшая река (предположительно, она пересохла в результате аномального воздействия). На реке стоят относительно крупная ГЭС и малая дамба, которые «Свобода» также использует, как блокпосты.
-loadscreens.location.north_institute.feature.0=«Свобода» хорошо окопалась на этой территории, представителям других группировок здесь будет несладко.
-
-loadscreens.location.north_institute.name=Институт
-loadscreens.location.north_mines.desc=Область между Институтом и Серпантином, поле боя между силами «Свободы» и Наемников. Когда-то здесь был тихий городок, выживавший за счет разработки месторождений. Еще во времена Великой Отечественной производство начало загибаться из-за острой нехватки рабочей силы, после войны ситуация лишь немногим улучшилась. В развалинах городка теперь воюют северные группировки. Кстати, тоннели шахт они недолюбливают: говорят, там слишком уж велика аномальная активность...
-
-general.achievement.id.sujet_duty.desc=За прохождение квеста на Ваганта за «Долг».
-general.achievement.id.sujet_freedom.desc=За прохождение квеста на Ваганта за «Свободу».
-general.achievement.id.alliance_join.desc=Вступить в ряды «Долга», «Свободы», «Завета» или Наемников
-
-stalker.alliance.gui.description.full.duty=Нет в Зоне ничего ценного, ничего человеческого. Есть лишь сила - дикая и противоестественная, и ей не место на нашей планете.\nМы перед нею не дрогнем, не устрашимся, друзья. Таков Долг! (с) Давыдов, командир «Долга»
-
-stalker.alliance.gui.description.full.freedom=Наши враги строчат правила и законы, но Зона не терпит закона. Зона свободна по определению, сталкеры!\nИдите, и заберите все дары Зоны, до каких доберетесь! (с) Чацкий, командир «Свободы»
-
-stalker.alliance.duty.quest_join=Для продолжения задания вступите в «Долг»
-stalker.alliance.duty.quest_leave=Для продолжения задания покиньте «Долг»
-stalker.alliance.freedom.quest_join=Для продолжения задания вступите в «Свободу»
-stalker.alliance.freedom.quest_leave=Для продолжения задания покиньте «Свободу»
-
-freedom.protected_areas.alert.notification.2=Эй! Если у «Свободы» порядки своевольные – эт не значит, что у нашей базы можно своевольничать левым типам! \nВали отсюда.
-freedom.protected_areas.alert.notification.3=Сталкеры «Свободы» - к базе приближается враг. \nОгонь на поражение!
-freedom.protected_areas.alert.notification.4=«Свобода» свои границы хорошо стережет. \nБеги отсюда, или завалим!
+cnps.faction.svoboda.name=«Свобода»
 
 duty.protected_areas.alert.notification.1=Нарушен периметр базы «Долга». \nОхрана: быть начеку, приготовьтесь вести огонь на поражение!
 duty.protected_areas.alert.notification.2=Нарушитель: ты приближаешься к базе «Долга». \nУходи, иначе расстреляем, как паршивого мутанта от нашей базы!
 duty.protected_areas.alert.notification.3=Чужак! Ты на территории «Долга». \nЛучше вали, если смерти не ищешь!
 duty.protected_areas.alert.notification.4=Предупреждение всем нарушителям: охрана базы «Долга» уполномочена вести огонь на поражение.
 
-stalker.protected_areas.north_barrier_duty.owner=«Долг»
-stalker.protected_areas.north_institute_freedom.owner=«Свобода»
+freedom.protected_areas.alert.notification.2=Эй! Если у «Свободы» порядки своевольные – эт не значит, что у нашей базы можно своевольничать левым типам! \nВали отсюда.
+freedom.protected_areas.alert.notification.3=Сталкеры «Свободы» - к базе приближается враг. \nОгонь на поражение!
+freedom.protected_areas.alert.notification.4=«Свобода» свои границы хорошо стережет. \nБеги отсюда, или завалим!
 
-item.brt.pd.npc.additional_stats_tip=Однажды крупный схрон «Свободы» с трав... ой, т.е., конечно же, с препаратами, накрыло аномалиями. В том месте появились первые образцы дурман-камня.
+general.achievement.id.alliance_join.desc=Вступить в ряды «Долга», «Свободы», «Завета» или Наемников
+general.achievement.id.sujet_duty.desc=За прохождение квеста на Ваганта за «Долг».
+general.achievement.id.sujet_freedom.desc=За прохождение квеста на Ваганта за «Свободу».
+
+hideout.titlePool.rightSide.rubezh=Долга
+hideout.titlePool.rightSide.zory=Свободы
 
 item.16300.name=Жетон группировки «Долг»
 item.16301.name=Жетон группировки «Свобода»
-item.16305.name=Жетон группировки «Монолит»
-item.16306.name=Жетон группировки «Чистое Небо»
-item.16307.name=Жетон НИИЧАЗ
-
-item.lootbox.faction_duty.name=Ящик «Долга»
-item.lootbox.faction_freedom.name=Ящик «Свободы»
-
-item.arm.hound.description=Этот экзокостюм - отличное приобретение для снайпера, работающего в условиях Зоны. Высокая подвижность сочетается с возможностью часами лежать в радиоактивном болоте, поджидая противника. Засадных дел мастера из «Свободы» одобряют!
-item.arm.vanguard.description=Комплект армейского снаряжения, адаптированный под требования «Долга». Бронекостюм «Авангард» обладает исключительной защитой от когтей и зубов мутантов, а хорошая пулестойкость делает его надежным подспорьем в войне за влияние в Зоне.
-
-item.arm.granite.description=Прототип сверхтяжелого бронекостюма, который все еще находится в разработке. Тем не менее, в условиях острого конфликта с другими группировками, «Долг» вынужден уже сейчас активно использовать его в некоторых своих подразделениях. Лучшие из лучших бойцов «Долга» получают возможность примерить этот бронекостюм: чтобы затем гранитной поступью прошагать по Зоне, давя мутантов и анархистов.
-
-item.arm.chieftain.description=Активное производство данного сверхтяжелого бронекостюма еще не запустилось - это всего лишь прототип. Что, впрочем, не помешало завладеть несколькими опытными образцами «Вождя» группировке «Свобода». Пока все их враги перевооружаются, анархисты также решили не сидеть на месте. Только самые лучшие бойцы «Свободы» получат шанс опробовать этот бронекостюм в деле.
-
-item.arm.kz1.description=Один из первых костюмов группировки «Горизонт». Неоднозначный, но дешевый и удобный комплект с характеристиками, схожими с «Свободой».
-
-item.charm.patch_duty.name=Брелок «Шеврон Долга»
-item.charm.patch_freedom.name=Брелок «Шеврон Свободы»
-
+item.16802.additional_stats_tip=Эти данные разведчики группировки «Долг» собирали на севере. Первоочередный интерес представляют для исследователя.
+item.16802.name=Блок данных «Долга»
+item.16803.additional_stats_tip=Эти данные разведчики группировки «Свобода» собирали на севере. Первоочередный интерес представляют для исследователя.
+item.16803.name=Блок данных «Свободы»
+item.18052.description=Камуфляж «Долга» для оружия
+item.18052.name=Камуфляж «Долга»
+item.18053.description=Камуфляж «Свободы» для оружия
+item.18053.name=Камуфляж «Свободы»
 item.19052.description=Камуфляж «Долга» для брони
 item.19052.name=Камуфляж «Долга»
 item.19053.description=Камуфляж «Свободы» для брони
 item.19053.name=Камуфляж «Свободы»
-
 item.19060.description=Камуфляж «Долга» для брони
 item.19060.name=Камуфляж «Долга» наградной
 item.19061.description=Камуфляж «Свободы» для брони
 item.19061.name=Камуфляж «Свободы» наградной
 
-item.18052.description=Камуфляж «Долга» для оружия
-item.18052.name=Камуфляж «Долга»
-item.18053.description=Камуфляж «Свободы» для оружия
-item.18053.name=Камуфляж «Свободы»
+item.arm.chieftain.description=Активное производство данного сверхтяжелого бронекостюма еще не запустилось - это всего лишь прототип. Что, впрочем, не помешало завладеть несколькими опытными образцами «Вождя» группировке «Свобода». Пока все их враги перевооружаются, анархисты также решили не сидеть на месте. Только самые лучшие бойцы «Свободы» получат шанс опробовать этот бронекостюм в деле.
+item.arm.granite.description=Прототип сверхтяжелого бронекостюма, который все еще находится в разработке. Тем не менее, в условиях острого конфликта с другими группировками, «Долг» вынужден уже сейчас активно использовать его в некоторых своих подразделениях. Лучшие из лучших бойцов «Долга» получают возможность примерить этот бронекостюм: чтобы затем гранитной поступью прошагать по Зоне, давя мутантов и анархистов.
+item.arm.hound.description=Этот экзокостюм - отличное приобретение для снайпера, работающего в условиях Зоны. Высокая подвижность сочетается с возможностью часами лежать в радиоактивном болоте, поджидая противника. Засадных дел мастера из «Свободы» одобряют!
+item.arm.kz1.description=Один из первых костюмов группировки «Горизонт». Неоднозначный, но дешевый и удобный комплект с характеристиками, схожими с «Свободой».
+item.arm.vanguard.description=Комплект армейского снаряжения, адаптированный под требования «Долга». Бронекостюм «Авангард» обладает исключительной защитой от когтей и зубов мутантов, а хорошая пулестойкость делает его надежным подспорьем в войне за влияние в Зоне.
 
-item.wpn.m1a_osvoboditel.name=M1A «Освободитель»
-item.wpn.m1a_osvoboditel.description=Добиться свободы для всех и вся в Зоне проще с хорошей пушкой в руках... Если в ход идет «Освободитель», мало никому не покажется!
-
-item.wpn.m1a_zashitnik.description=Лидер Долга, Давыдов, уверен что все их оружие, включая эту модифицированную полуавтоматическую винтовку, используется исключительно для защиты человечества от Зоны. Но, в конечном итоге, как поступать с «Защитником» Долга решает его владелец...
-
-item.wpn.svd_coin.description=Легендарный ствол, модифицированный не менее легендарным мастером. Долгое время был реликвией группировки «Свобода». По крайней мере, так заявляет сам Монета..
-
-item.quest.armsklad.12962.description=Такие ленты некоторые из бойцов Долга используют, чтобы отмечать свои тайники и тайные тропы.
-
-item.16802.name=Блок данных «Долга»
-item.16802.additional_stats_tip=Эти данные разведчики группировки «Долг» собирали на севере. Первоочередный интерес представляют для исследователя.
-item.16803.name=Блок данных «Свободы»
-item.16803.additional_stats_tip=Эти данные разведчики группировки «Свобода» собирали на севере. Первоочередный интерес представляют для исследователя.
-
+item.brt.pd.npc.additional_stats_tip=Однажды крупный схрон «Свободы» с трав... ой, т.е., конечно же, с препаратами, накрыло аномалиями. В том месте появились первые образцы дурман-камня.
 item.camo.unique.duty.name=«Долг»
 item.camo.unique.freedom.name=«Свобода»
+item.charm.patch_duty.name=Брелок «Шеврон Долга»
+item.charm.patch_freedom.name=Брелок «Шеврон Свободы»
 
+item.lootbox.convertation_large_duty.name=Большой ящик конвертации («Долг»)
+item.lootbox.convertation_large_freedom.name=Большой ящик конвертации («Свобода»)
+item.lootbox.faction_duty.name=Ящик «Долга»
+item.lootbox.faction_freedom.name=Ящик «Свободы»
+
+item.quest.armsklad.12962.description=Такие ленты некоторые из бойцов Долга используют, чтобы отмечать свои тайники и тайные тропы.
 item.quest.Belyankin_watch.additional_stats_tip=Наручные часы бойца «Свободы» Белянкина. Они в его семье - настоящая реликвия!
+item.quest.chemicals.additional_stats_tip=Химикаты, которыми «свободовцы» обрабатывают некоторые из выращиваемых ими растений.
 item.quest.covenant.frontier_stash.additional_stats_tip=Припасы «долговцев», приватизированные в пользу «Завета».
 item.quest.covenant.frontier_stash.name=Хабар «Долга»
 item.quest.duty_chevron.additional_stats_tip=Офицеры, командующие отрядами «долговцев», носят такие шевроны. Чем больше вы их получите, тем больший хаос посеете в рядах «Долга».
@@ -211,17 +107,87 @@ item.quest.freedom.docs_stack_special.additional_stats_tip=Различные с
 item.quest.freedom.docs_stack_special.name=Пачка секретных документов «Свободы»
 item.quest.freedom.docs_stack.additional_stats_tip=Различные документы принадлежащие «Свободе».
 item.quest.freedom.docs_stack.name=Пачка документов «Свободы»
-
 item.quest.scientific_sup.additional_stats_tip=Припасы научной группы с рыбхозяйства, брошенные ею в ходе «сложного переезда» на базу «Свободы».
-item.quest.chemicals.additional_stats_tip=Химикаты, которыми «свободовцы» обрабатывают некоторые из выращиваемых ими растений.
+
 item.secret_31.additional_stats_tip=Нужно отразить, что эта встреча повлияла на решение о переходе в Свободу
-
-item.lootbox.convertation_large_duty.name=Большой ящик конвертации («Долг»)
-item.lootbox.convertation_large_freedom.name=Большой ящик конвертации («Свобода»)
-
 item.style.wpn.svu_duty.description=Героем одной из баек, что «долговцы» традиционно рассказывают у костра, является некий «Кэп» - бравый боец «Долга», рубаха-парень, который отбился от своего отряда и никак не может вернуться на базу. Он увяз где-то в глубоком тылу противника и ведет бесконечную войну с мутантами, бандитами и фанатиками...\n\nИстории о злоключениях Кэпа носят скорее юмористический характер, но некоторые даже наносят его изображения на свое оружие.
-
 item.style.wpn.svu_freedom.description=Бойцы «Свободы» верят, что однажды им удастся принести в Зону настоящую свободу... Подобный кастом вдохновляет всех борцов за идеалы «Свободы».
+item.wpn.m1a_osvoboditel.description=Добиться свободы для всех и вся в Зоне проще с хорошей пушкой в руках... Если в ход идет «Освободитель», мало никому не покажется!
+item.wpn.m1a_osvoboditel.name=M1A «Освободитель»
+item.wpn.m1a_zashitnik.description=Лидер Долга, Давыдов, уверен что все их оружие, включая эту модифицированную полуавтоматическую винтовку, используется исключительно для защиты человечества от Зоны. Но, в конечном итоге, как поступать с «Защитником» Долга решает его владелец...
+item.wpn.svd_coin.description=Легендарный ствол, модифицированный не менее легендарным мастером. Долгое время был реликвией группировки «Свобода». По крайней мере, так заявляет сам Монета..
 
-hideout.titlePool.rightSide.zory=Свободы
-hideout.titlePool.rightSide.rubezh=Долга
+loadscreens.location.base_duty.name=База «Долга»
+loadscreens.location.base_freedom.name=База «Свободы»
+loadscreens.location.north_barrier.desc=Заброшенные военные базы, склады и радиолокационные станции - так выглядит Барьер, область, в которой окопались силы «Долга». В этой области хватает опасных мутантов. Несмотря на все старания «Долга», искоренить их присутствие окончательно не выходит.
+loadscreens.location.north_barrier.feature.0=«Долг» хорошо окопался на этой территории, представителям других группировок здесь будет несладко.
+loadscreens.location.north_inflow.desc=Область между Барьером и Храмовой топью, поле боя между силами «Долг» и «Завета». Приток был небольшим, но оживленным городком, зависящим от речного судоходства. Само название этого населенного пункта отражало смысл его существования. Теперь ни о каком судоходстве речи, конечно, не идет, а за контроль над территорией Притока вовсю воюют северные группировки.
+loadscreens.location.north_inflow.name=Приток
+loadscreens.location.north_institute.desc=Эта область стала базой для группировки «Свобода». Основные силы «Свободы» расположились в здании бывшего Института опытной агрономии и его окрестностях. По территории Института проходит пересохшая река (предположительно, она пересохла в результате аномального воздействия). На реке стоят относительно крупная ГЭС и малая дамба, которые «Свобода» также использует, как блокпосты.
+loadscreens.location.north_institute.feature.0=«Свобода» хорошо окопалась на этой территории, представителям других группировок здесь будет несладко.
+loadscreens.location.north_institute.name=Институт
+loadscreens.location.north_mines.desc=Область между Институтом и Серпантином, поле боя между силами «Свободы» и Наемников. Когда-то здесь был тихий городок, выживавший за счет разработки месторождений. Еще во времена Великой Отечественной производство начало загибаться из-за острой нехватки рабочей силы, после войны ситуация лишь немногим улучшилась. В развалинах городка теперь воюют северные группировки. Кстати, тоннели шахт они недолюбливают: говорят, там слишком уж велика аномальная активность...
+
+location.base_duty.name=База «Долга»
+location.base_freedom.name=База «Свободы»
+location.dungeon_duty_storage=Склад «Долга»
+location.outpost_duty.name=Аванпост «Долга»
+location.outpost_freedom.name=Аванпост «Свободы»
+
+map.teleport.id.bar-duty.name=к базе «Долга»
+map.teleport.id.bar-freedom.name=к базе «Свободы»
+
+pda.waypoint.home_outpost.duty=Штаб «Долга»
+pda.waypoint.home_outpost.freedom=Штаб «Свободы»
+pda.waypoint.we.abstract_camp_duty.title=Стоянка «Долга»
+pda.waypoint.we.abstract_camp_freedom.title=Стоянка «Свободы»
+pda.waypoint.we.north_house_duty.title=Застава «Долга»
+pda.waypoint.we.north_house_freedom.title=Застава «Свободы»
+pda.waypoint.we.outpost.duty=Аванпост «Долга»
+pda.waypoint.we.outpost.freedom=Аванпост «Свободы»
+
+personal_storage.availability.settlement.alliance_stalkers=Требуемая репутация:\nБаза «Долга» - Генерал (7)\nБаза «Свободы» - Хранитель Зоны (7)
+savepoints.id.savepoint_duty.name=База «Долга»
+savepoints.id.savepoint_freedom.name=База «Свободы»
+
+settlement.id.duty.default_desc=Совсем еще зеленых новичков в «Долге» зовут рекрутами. По мнению командования, этим бойцам еще только предстоит пройти «боевое крещение». Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.duty.level.2.desc=Бойцы - это костяк «Долга». На их плечах лежит непростая задача по защите цивилизованного мира от заразы Зоны. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.duty.level.5.desc=Ваш боевой опыт не вызывает сомнений. Командование «Долга» полагается на вас, когда речь заходит о самых сложных операциях. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.duty.level.6.desc=Заработав в «Долге» звание майора, вы получили непререкаемый авторитет и серьезное влияние. С вашим словом теперь считаются все. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.duty.level.7.desc=Немногие бойцы группировки «Долг» доживали до получения генеральских погон, и вы теперь - один из них. Будущее «Долга» в ваших руках.
+settlement.id.duty.title=База «Долга»
+settlement.id.freedom.default_desc=Всех, кто не состоит в их группировке, свободовцы считают пленниками глупых условностей и ограничений. Коль скоро вы в рядах «Свободы», вас зовут «освобожденным»! Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.freedom.level.3.desc=Готовность ввязаться в самую безумную авантюру ради познания Зоны (и извлечения выгоды из данного познания) является частью философии ветеранов «Свободы». Теперь вы тоже кое-что в этом понимаете. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.freedom.level.4.desc=Анархия - мать порядка! А кто будет с этим утверждением спорить, с тем разговор короткий. Вы зазубрили эту простую истину и теперь в «Свободе» вас величают «анархистом». Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.freedom.level.5.desc=Свободовцы из боевого крыла добившиеся такой репутации уже не раз проявляли себя в помощи ученым. Вы заслужили уважение среди ветеранов «Свободы» и теперь вас считают одним из тех, кто сам в какой-то мере познает Зону. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.freedom.level.6.desc=Недовольные угнетением со стороны организаций, стремящихся подмять Зону под себя, разжигают пламя революции и пользуются в «Свободе» очень серьезным уважением. Выполняйте задания местных обитателей, чтобы повысить свою репутацию.
+settlement.id.freedom.level.7.desc=Пока одни безумцы поклялись защищать мир от Зоны, вы поклялись защитить Зону от всего мира, жаждущего наложить лапу на ее богатства. Для свободовцев вы стали одной из легенд, Хранителем Зоны.
+settlement.id.freedom.title=База «Свободы»
+
+stalker.alliance.duty.quest_join=Для продолжения задания вступите в «Долг»
+stalker.alliance.duty.quest_leave=Для продолжения задания покиньте «Долг»
+stalker.alliance.freedom.quest_join=Для продолжения задания вступите в «Свободу»
+stalker.alliance.freedom.quest_leave=Для продолжения задания покиньте «Свободу»
+stalker.alliance.gui.description.full.duty=Нет в Зоне ничего ценного, ничего человеческого. Есть лишь сила - дикая и противоестественная, и ей не место на нашей планете.\nМы перед нею не дрогнем, не устрашимся, друзья. Таков Долг! (с) Давыдов, командир «Долга»
+stalker.alliance.gui.description.full.freedom=Наши враги строчат правила и законы, но Зона не терпит закона. Зона свободна по определению, сталкеры!\nИдите, и заберите все дары Зоны, до каких доберетесь! (с) Чацкий, командир «Свободы»
+stalker.navigation.transition.dungeon_twins_boss_arena-base_duty.name=База «Долга»
+stalker.navigation.transition.dungeon_twins_boss_arena-base_freedom.name=База «Свободы»
+stalker.navigation.transition.north_barrier-base_duty.name=База «Долга»
+stalker.navigation.transition.north_institute-base_freedom.name=База «Свободы»
+stalker.navigation.transition.outpost_duty-base_duty.name=База «Долга»
+stalker.navigation.transition.outpost_freedom-base_freedom.name=База «Свободы»
+stalker.protected_areas.north_barrier_duty.owner=«Долг»
+stalker.protected_areas.north_institute_freedom.owner=«Свобода»
+
+we.abstract_camp_duty.status_title=Стоянка «Долга»
+we.abstract_camp_freedom.status_title=Стоянка «Свободы»
+we.abstract_rescue_duty.failure_text=Бойцы «Долга» погибли!
+we.abstract_rescue_duty.goal=Не дать бойцам «Долга» погибнуть
+we.abstract_rescue_duty.success_text=Бойцы «Долга» выжили и предлагают награду
+we.abstract_rescue_duty.task_text=Помочь бойцам «Долга»\nБойцы «Долга» {health}
+we.abstract_rescue_freedom.failure_text=Бойцы «Свободы» погибли!
+we.abstract_rescue_freedom.goal=Не дать бойцам «Свободы» погибнуть
+we.abstract_rescue_freedom.success_text=Бойцы «Свободы» выжили и предлагают награду
+we.abstract_rescue_freedom.task_text=Помочь бойцам «Свободы»\nБойцы «Свободы» {health}
+we.north_house_duty.status_title=Застава «Долга»
+we.north_house_freedom.status_title=Застава «Свободы»

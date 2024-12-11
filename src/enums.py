@@ -6,9 +6,9 @@ from src.consts import LangFile
 
 class ModOption(StrEnum):
     FRACTIONS = "Фракции"
-    ITEMS = "Снаряжение"
-    ARTEFACTS = "Артефакты"
-    NAMES = "Лор"
+    ARTEFACTS = "Артефакты и Аномалии"
+    ITEMS = "Снаряжение (Броня и Оружие)"
+    NAMES = "Лор (Локации, Мутанты, Расходники)"
 
 
 class LangPath(Enum):
