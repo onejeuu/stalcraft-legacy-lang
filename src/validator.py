@@ -4,17 +4,16 @@ from typing import Any
 
 from prompt_toolkit.validation import ValidationError, Validator
 
-from src.consts import STEAM_CATALOG, RequiredPath
-from src.enums import LangPath
+from src.consts import LANGS_FILES, STEAM_DIRECTORY, RequiredPath
 
 
-def assets_contains_langs(path: Path):
-    return all([Path(path / lang.value).exists() for lang in LangPath])
+def validate_langs(base: Path):
+    return all([Path(base / lang).exists() for lang in LANGS_FILES])
 
 
 def validate_assets(path: Path, required: Path):
     # ? Если указанный путь содержит полные каталоги до lang файлов
-    if assets_contains_langs(path):
+    if validate_langs(path):
         return path
 
     # ? Если путь оканчивается на полный required
@@ -26,10 +25,10 @@ def validate_assets(path: Path, required: Path):
 
     while candidate.parts:
         if path.match(f"*{candidate}"):
-            # ? Возвращаем полный путь до ассетов
+            # ? Возвращаем полный путь именно до ассетов
             return path / required.relative_to(candidate)
         else:
-            # ? Последовательно уменьшаем потенциальный путь
+            # ? Уменьшаем потенциальный путь
             candidate = candidate.parent
 
     return path / required
@@ -37,7 +36,7 @@ def validate_assets(path: Path, required: Path):
 
 def find_assets(path: Path):
     # Определяем точность RequiredPath по наличию стима в указанном пути
-    required = RequiredPath.STEAM if STEAM_CATALOG in path.parts else RequiredPath.LAUNCHER
+    required = RequiredPath.STEAM if STEAM_DIRECTORY in path.parts else RequiredPath.LAUNCHER
 
     return validate_assets(path=path, required=required)
 
@@ -63,7 +62,7 @@ class AssetsPathValidator(Validator):
         # Проверяем, находится ли в указанном пути ассеты игры
         finded = find_assets(path)
 
-        if not finded or not finded.exists() or not assets_contains_langs(finded):
+        if not finded or not finded.exists() or not validate_langs(finded):
             raise ValidationError(
                 message="Указанный путь не содержит ассетов игры",
                 cursor_position=document.cursor_position,

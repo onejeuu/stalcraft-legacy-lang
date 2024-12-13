@@ -2,14 +2,14 @@ from InquirerPy import inquirer
 from InquirerPy.base.control import Choice
 from InquirerPy.validator import EmptyInputValidator
 
-from src.assets_validator import AssetsPathValidator
 from src.consts import GamePath
-from src.enums import ModOption
+from src.enums import LangFile, ModOption
+from src.validator import AssetsPathValidator
 
 
 def confirm_default_path():
     return inquirer.select(  # type: ignore
-        message=f"Найден стандартный путь до ассетов игры\n{GamePath.ASSETS.as_posix()}\nВсё верно?",
+        message=f"Найден стандартный путь до ассетов игры\n{GamePath.DEFAULT.as_posix()}\nВсё верно?",
         pointer=">",
         choices=[
             Choice(True, name="Да, продолжить"),
@@ -41,6 +41,19 @@ def mod_options():
                 {"key": "right"},
             ],
         },
+    ).execute()
+
+
+def lang_file():
+    return inquirer.select(  # type: ignore
+        message="Выберите файл для замены на Legacy Локализацию\n"
+        "Влияет на опцию в настройках игры, которая будет заменена на Legacy версию\n"
+        "Текст всё равно будет на русском:",
+        pointer=">",
+        choices=[
+            Choice(LangFile.RUSSIAN, name=f"Русский ({LangFile.RU.value})"),
+            Choice(LangFile.ENGLISH, name=f"English ({LangFile.EN.value})"),
+        ],
     ).execute()
 
 

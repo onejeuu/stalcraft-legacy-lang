@@ -3,7 +3,7 @@ from functools import reduce
 from pathlib import Path
 from typing import TypeAlias
 
-from src.consts import LangFile
+from src.consts import BACKUP_SUFFIX
 
 
 Localization: TypeAlias = dict[str, str]
@@ -13,10 +13,13 @@ def load(path: Path) -> Localization:
     """Загрузить локализацию"""
     localization: Localization = {}
 
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
+    with open(path, "r", encoding="utf-8") as file:
+        for line in file:
             if line := line.strip():
-                key, value = line.split("=", maxsplit=1)
+                # Разделяем строку на ключ и значение
+                key, value = (line.split("=", maxsplit=1) + [""])[:2]
+
+                # ? Значение может быть пустым или пробелы могут иметь важную роль
                 localization[key.strip()] = value
 
     return localization
@@ -24,9 +27,9 @@ def load(path: Path) -> Localization:
 
 def save(output: Path, localization: Localization) -> None:
     """Сохранить локализацию"""
-    with open(output, "w", encoding="utf-8") as f:
+    with open(output, "w", encoding="utf-8") as file:
         for key, value in localization.items():
-            f.write(f"{key}={value}\n")
+            file.write(f"{key}={value}\n")
 
 
 def update(localization: Localization, modded: Localization) -> Localization:
@@ -44,7 +47,7 @@ def restore(orig: Path, bck: Path) -> None:
 
 def backup_filename(path: Path) -> Path:
     """Название файла резервной копии"""
-    return path.with_name(f"{path.name}.{LangFile.BACKUP_SUFFIX}")
+    return path.with_name(f"{path.name}.{BACKUP_SUFFIX}")
 
 
 def backup(orig: Path) -> None:

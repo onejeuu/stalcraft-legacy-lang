@@ -2,62 +2,67 @@ import os
 from pathlib import Path
 
 from src import ask, localization, resources
-from src.consts import GamePath
-from src.enums import LangPath, ModOption
+from src.consts import LANGS_FILES, GamePath
+from src.enums import LangDirectory, LangFile, ModOption
+from src.validator import validate_langs
 
 
-def define_path():
+def define_assets_path():
     """Определить путь до ассетов игры"""
-    if GamePath.DEFAULT.exists() and ask.confirm_default_path():
-        return GamePath.DEFAULT
+    default = GamePath.DEFAULT
+    if default.exists() and validate_langs(default) and ask.confirm_default_path():
+        return default
 
     return ask.enter_assets_path()
 
 
 def mod_is_installed(assets: Path):
-    """Проверка на наличие backup файлов"""
-    langs = [localization.backup_filename(assets / lang.value) for lang in LangPath]
-    return any([lang.exists() for lang in langs])
+    """Проверка на наличие любых резервных копий"""
+    langs = map(lambda lang: assets / lang, LANGS_FILES)
+    backups = map(localization.backup_filename, langs)
+    return any([bck.exists() for bck in backups])
 
 
-def apply(orig: Path, options: list[ModOption], lang: LangPath):
+def apply(lang: Path, options: list[ModOption], directory: LangDirectory):
     """Применение модификации на локализацию"""
-    mods = resources.options_to_path(options, lang)
-    updated = localization.apply(path=orig, mods=mods)
-    localization.save(orig, updated)
+    mods = resources.options_to_path(options, directory)
+    updated = localization.apply(path=lang, mods=mods)
+    localization.save(lang, updated)
 
 
-def install(assets: Path, options: list[ModOption]):
+def install(assets: Path, file: LangFile, options: list[ModOption]):
     """Установка модификации"""
-    for lang in LangPath:
-        orig = assets / lang.value
+    for directory in LangDirectory:
+        lang = assets / directory.value / file.value
 
-        backup = localization.backup_filename(orig)
+        backup = localization.backup_filename(lang)
         if not backup.exists():
-            localization.backup(orig)
+            localization.backup(lang)
 
-        apply(orig, options, lang)
+        apply(lang, options, directory)
 
 
 def uninstall(assets: Path):
     """Удаление модификации"""
-    for lang in LangPath:
-        orig = assets / lang.value
+    for directory in LangDirectory:
+        for file in LangFile:
+            orig = assets / directory.value / file.value
 
-        backup = localization.backup_filename(orig)
-        if backup.exists():
-            localization.restore(orig, backup)
+            backup = localization.backup_filename(orig)
+            if backup.exists():
+                localization.restore(orig, backup)
 
 
 def main():
-    assets = define_path()
+    assets = define_assets_path()
 
     if mod_is_installed(assets) and ask.uninstall_mod():
         uninstall(assets)
         return
 
+    file = ask.lang_file()
     options = ask.mod_options()
-    install(assets, options)
+    install(assets, file, options)
 
 
 def change_encoding():

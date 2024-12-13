@@ -1,22 +1,26 @@
+from itertools import product
 from pathlib import Path
 
-
-DATADIR = "data"
-
-STEAM_CATALOG = "steamapps"
+from src.enums import LangDirectory, LangFile
 
 
-class LangFile:
-    BACKUP_SUFFIX = "bck"
-    PATH = "lang/ru.lang"
+DATA_DIRECTORY = "data"
+
+STEAM_DIRECTORY = "steamapps"
+
+BACKUP_SUFFIX = "bck"
 
 
 class GamePath:
     APPDATA = Path.home() / "AppData" / "Roaming"
     STALCRAFT = APPDATA / "EXBO" / "runtime" / "stalcraft"
-    DEFAULT = ASSETS = STALCRAFT / "modassets" / "assets"
+    DEFAULT = STALCRAFT / "modassets" / "assets"
 
 
 class RequiredPath:
     STEAM = Path("modassets/assets")
     LAUNCHER = Path("runtime/stalcraft/modassets/assets")
+
+
+LANGS_FILES = [Path(directory.value, file.value) for directory, file in product(LangDirectory, LangFile)]
+"""Все известные файлы локализации"""
