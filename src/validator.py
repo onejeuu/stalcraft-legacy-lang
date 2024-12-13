@@ -60,13 +60,13 @@ class AssetsPathValidator(Validator):
             )
 
         # Проверяем, находится ли в указанном пути ассеты игры
-        finded = find_assets(path)
+        found = find_assets(path)
 
-        if not finded or not finded.exists() or not validate_langs(finded):
+        if not found or not found.exists() or not validate_langs(found):
             raise ValidationError(
                 message="Указанный путь не содержит ассетов игры",
                 cursor_position=document.cursor_position,
             )
 
         # Обновляем данные на полный путь до ассетов
-        document.text = finded.as_posix()
+        document.text = found.as_posix()
