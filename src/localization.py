@@ -1,7 +1,6 @@
 import shutil
 from functools import reduce
 from pathlib import Path
-from tkinter.tix import Tree
 from typing import TypeAlias
 
 from src.consts import BACKUP_DIRECTORY
@@ -43,23 +42,19 @@ def update(localization: Localization, modded: Localization) -> Localization:
 def restore(orig: Path, bck: Path) -> None:
     """Восстановить файл локализации"""
     orig.unlink(missing_ok=True)
-    bck.rename(orig)
+    shutil.move(bck, orig)
 
 
-def backup_prepare() -> None:
-    """Создает директорию для резервных копий"""
-    BACKUP_DIRECTORY.mkdir(exist_ok=True, parents=True)
-
-
-def backup_filename(path: Path) -> Path:
-    """Название файла резервной копии"""
-    return BACKUP_DIRECTORY / path.name
+def backup_path(orig: Path) -> Path:
+    """Путь до файла резервной копии"""
+    basedir = BACKUP_DIRECTORY / orig.parent.parent.name
+    basedir.mkdir(exist_ok=True, parents=True)
+    return basedir / orig.name
 
 
 def backup(orig: Path) -> None:
     """Восстановить оригинальный файл"""
-    backup_prepare()
-    bck = backup_filename(orig)
+    bck = backup_path(orig)
     shutil.copy2(orig, bck)
 
 

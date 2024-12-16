@@ -19,15 +19,16 @@ def define_assets_path():
 def mod_is_installed(assets: Path):
     """Проверка на наличие любых резервных копий"""
     langs = map(lambda lang: assets / lang, LANGS_FILES)
-    backups = map(localization.backup_filename, langs)
+    backups = map(localization.backup_path, langs)
     return any([bck.exists() for bck in backups])
 
 
 def apply(lang: Path, options: list[ModOption], directory: LangDirectory):
     """Применение модификации на локализацию"""
-    mods = resources.options_to_path(options, directory)
-    updated = localization.apply(path=lang, mods=mods)
-    localization.save(lang, updated)
+    ru_lang = lang.with_stem("ru")  # ? Применяем (в памяти) поверх русской, но заменяем любую
+    mods = resources.options_to_path(options, directory)  # Список lang патчей
+    updated = localization.apply(path=ru_lang, mods=mods)  # Применяем патчи на словарь
+    localization.save(lang, updated)  # Сохраняем файл локализации
 
 
 def install(assets: Path, file: LangFile, options: list[ModOption]):
@@ -35,7 +36,7 @@ def install(assets: Path, file: LangFile, options: list[ModOption]):
     for directory in LangDirectory:
         lang = assets / directory.value / file.value
 
-        backup = localization.backup_filename(lang)
+        backup = localization.backup_path(lang)
         if not backup.exists():
             localization.backup(lang)
 
@@ -48,14 +49,12 @@ def uninstall(assets: Path):
         for file in LangFile:
             orig = assets / directory.value / file.value
 
-            backup = localization.backup_filename(orig)
+            backup = localization.backup_path(orig)
             if backup.exists():
                 localization.restore(orig, backup)
 
 
 def main():
-    localization.backup_prepare()
-
     assets = define_assets_path()
 
     if mod_is_installed(assets) and ask.uninstall_mod():

@@ -3,8 +3,8 @@ from pathlib import Path
 
 
 class ModOption(StrEnum):
+    ARTEFACTS = "Артефакты (Артефакты, Аномалии, Протки)"
     FRACTIONS = "Фракции (Долг и Свобода)"
-    ARTEFACTS = "Артефакты (Аномалии и Протоаномалии)"
     ITEMS = "Снаряжение (Броня и Оружие)"
     NAMES = "Лор (Локации, Мутанты, Расходники)"
 
