@@ -54,6 +54,8 @@ def uninstall(assets: Path):
 
 
 def main():
+    localization.backup_prepare()
+
     assets = define_assets_path()
 
     if mod_is_installed(assets) and ask.uninstall_mod():

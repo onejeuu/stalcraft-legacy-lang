@@ -1,9 +1,10 @@
 import shutil
 from functools import reduce
 from pathlib import Path
+from tkinter.tix import Tree
 from typing import TypeAlias
 
-from src.consts import BACKUP_SUFFIX
+from src.consts import BACKUP_DIRECTORY
 
 
 Localization: TypeAlias = dict[str, str]
@@ -45,13 +46,19 @@ def restore(orig: Path, bck: Path) -> None:
     bck.rename(orig)
 
 
+def backup_prepare() -> None:
+    """Создает директорию для резервных копий"""
+    BACKUP_DIRECTORY.mkdir(exist_ok=True, parents=True)
+
+
 def backup_filename(path: Path) -> Path:
     """Название файла резервной копии"""
-    return path.with_name(f"{path.name}.{BACKUP_SUFFIX}")
+    return BACKUP_DIRECTORY / path.name
 
 
 def backup(orig: Path) -> None:
     """Восстановить оригинальный файл"""
+    backup_prepare()
     bck = backup_filename(orig)
     shutil.copy2(orig, bck)
 

@@ -8,7 +8,7 @@ DATA_DIRECTORY = "data"
 
 STEAM_DIRECTORY = "steamapps"
 
-BACKUP_SUFFIX = "bck"
+BACKUP_DIRECTORY = Path.home() / "sclegacylang" / "backup"
 
 
 class GamePath:
