@@ -135,6 +135,14 @@ item.ny_toys.setL.toy8.name=Артефакт-игрушка Золотая ры�
 item.quest.big_configurator_ny24.description=Мощное стационарное устройство, предназначенное для конфигурации и насыщения области чистой энергией Ноосферы. Разработано таким образом, чтобы за единицу времени изменять и выпускать значительные объемы энергии, тем самым кодируя квантую информацию Пузыря, превращая его во временной коридор.
 item.quest.small_configurator_ny24.description=Стационарное устройство, насыщающее область чистой энергией Ноосферы с заданными параметрами. Необходимо для проведения экспериментов по поиску подходящего пространственного Пузыря.
 
+pda.waypoint.we.blizzard_evacuate_teleport.title=«Пузырь»
+pda.waypoint.we.flex_node_carousel.title=Скопление «Протокаруселей»
+pda.waypoint.we.flex_node_electra.title=Скопление «Протоэлектр»
+pda.waypoint.we.flex_node_funnel.title=Скопление «Протоворонок»
+pda.waypoint.we.flex_node_kissel.title=Скопление «Протокиселей»
+pda.waypoint.we.flex_node_lighter.title=Скопление «Протожарок»
+pda.waypoint.we.flex_node_trampoline.title=Скопление «Протобатутов»
+
 world.modifier.ravent_level_electra_activity.description=На арене появляются «Протоэлектры»
 world.modifier.ravent_level_electra_activity.name=Активность «Протоэлектр»
 world.modifier.ravent_level_funnel_activity.description=На арене появляются «Протоворонки»
@@ -142,3 +150,4 @@ world.modifier.ravent_level_funnel_activity.name=Активность «Прот
 world.modifier.ravent_level_lighter_activity.description=На арене появляются «Протожарки»
 world.modifier.ravent_level_lighter_activity.name=Активность «Протожарок»
 world.modifier.ravent_mobs_mutant_segmentation.description=При смерти из мутантов появляются тушканы
+
